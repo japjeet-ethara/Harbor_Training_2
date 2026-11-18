@@ -14,6 +14,36 @@ A complete, production-grade Harbor task that ports Python's [pyfiglet](https://
 
 ---
 
+## 📁 What is Where
+
+- **`environment/Dockerfile`**: Two-stage build. Stage 1 (`alpine`) clones pyfiglet (`255827ef`) and runs `make minimal` for fonts; Stage 2 (`golang:1.23-alpine`) adds `bash`, user `player`, and ensures zero Python runtime.
+- **`instruction.md`**: Clean specification for CLI flags (`-f`, `-w`, `-j`, `-D`, `-r`, `-F`, `-s`, `-n`) and pure Go requirements without exposing test secrets.
+- **`solution/solve.sh`**: Pure standard-library Go port embedding fonts via `//go:embed fonts/*.flf` with zero external dependencies.
+- **`cheat/solve.sh`**: Cheat agent replaying visible inputs against hidden test cases; correctly scores `0.167` (build only).
+- **`tests/grade.go` & `tests/test.sh`**: Evaluation harness running three checks: `build` (weight 1), `no_python` (weight 1, guarded by test passes), and `behaviour` (weight 4, 2,000 hidden cases byte-for-byte).
+- **`tests/secret.b64`**: Stores base64 secret rendered upon achieving a perfect 1.000 score.
+- **`tests/gen.py`**: Generates 2,000 visible and 2,000 hidden test cases (`random.seed(7)`) across 8 standard fonts.
+- **`screenshot/`**: Verified logs for Oracle (`1.000`), Nop (`0.000`), Cheat (`0.167`), and the unlocked banner.
+
+---
+
+## 🐛 A Bug I Found in My Own Exam
+
+During testing and evaluation of the Go port, three specific edge cases were caught and fixed:
+
+1. **Trailing Newline Shift in Flip/Reverse (`-F` / `-r`):**  
+   In Go, `strings.Split("...\n", "\n")` produces a trailing empty string `""`. When vertically reversing rows (`-F`), this blank line became row 0, shifting the entire ASCII art downward by one line. We fixed it with a custom `pySplitLines()` helper matching Python's `splitlines()` behavior.
+
+2. **Big-X Smushing Asymmetry (`\ + / -> Y`):**  
+   Rule 5 (`SM_BIGX`) is intuitively assumed to return `X` on all slash collisions. However, `pyfiglet` explicitly maps `/ + \ -> |` and `\ + / -> Y` (only `> + < -> X`). An initial symmetric cross implementation broke slant font tests until the `Y` mapping was matched.
+
+3. **`no_python` Grader Trap in Nop Run:**  
+   In `grade.go`, awarding `no_python` simply for having no `.py` files gave an empty repo (`nop`) a score of `0.167` (1/6 weight) instead of `0.000`. We tied `no_python` to `behaviourScore > 0`, ensuring `nop` stays strictly `0.000`.
+
+
+---
+
+
 ## 📸 Real Terminal Screenshots
 
 ### 1. Oracle Run (`Reward = 1.000`)
