@@ -1,0 +1,8 @@
+{
+    "job_name": "figlet-equivalence-cheat-01",
+    "tasks": [
+        {
+            "path": "."
+        }
+    ]
+}

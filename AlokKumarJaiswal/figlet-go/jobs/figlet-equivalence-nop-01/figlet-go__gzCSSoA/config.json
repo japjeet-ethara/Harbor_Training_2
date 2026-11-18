@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "."
+    },
+    "trial_name": "figlet-go__gzCSSoA",
+    "trials_dir": "jobs\\figlet-equivalence-nop-01",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "62b612bc-4ae5-497c-a43b-7ff795a9c7c8"
+}

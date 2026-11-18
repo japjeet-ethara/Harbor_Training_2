@@ -1,0 +1,32 @@
+=== GRADER STARTUP ===
+=== LOADING HIDDEN DATA ===
+Loaded 2000 records.
+
+=== BUILD ===
+
+--- Dependency check (stdlib-only rule) ---
+Dependency check passed: 61 package(s) examined, all stdlib or in-repo.
+Build: PASS (including stdlib-only check)
+
+=== BEHAVIOR ===
+Cases: 2000 / 2000 matched
+
+=== NO_PYTHON CHECK ===
+No Python files, at least one case matched — no_python = 1
+
+=== SECRET ===
+*** SECRET UNLOCKED ***
+    _ __                                 
+   (_) /___ _   _____  __  ______  __  __
+  / / / __ \ | / / _ \/ / / / __ \/ / / /
+ / / / /_/ / |/ /  __/ /_/ / /_/ / /_/ / 
+/_/_/\____/|___/\___/\__, /\____/\__,_/  
+                    /____/               
+
+
+=== REWARD ===
+build     = 1
+no_python = 1
+behaviour = 1.000000
+reward    = 1.000000
+Wrote /logs/verifier/reward.json

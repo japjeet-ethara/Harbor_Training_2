@@ -1,0 +1,123 @@
+{
+    "id": "3ab71eb3-c8cc-42d2-af61-9d6d670b943b",
+    "task_name": "alokinethara/figlet-go",
+    "trial_name": "figlet-go__PkD9GZQ",
+    "trial_uri": "file:///C:/Users/AlokJaiswal/Desktop/16-Nov-second-harbor/figlet-go/jobs/figlet-equivalence-cheat-01/figlet-go__PkD9GZQ",
+    "task_id": {
+        "path": "."
+    },
+    "source": null,
+    "task_checksum": "ccc171df033935f344e73e3cea6d96f999d7a3792d0cefb7c73bcb9f7d19a5ed",
+    "config": {
+        "task": {
+            "path": ".",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "figlet-go__PkD9GZQ",
+        "trials_dir": "jobs\\figlet-equivalence-cheat-01",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "771e9502-5593-4c54-bc91-367ad4fa07f5",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.16666666666666666,
+            "build": 1,
+            "no_python": 0,
+            "behaviour": 0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-11-17T08:46:09.273718Z",
+    "finished_at": "2026-11-17T08:46:58.354518Z",
+    "environment_setup": {
+        "started_at": "2026-11-17T08:46:09.611845Z",
+        "finished_at": "2026-11-17T08:46:12.744304Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-11-17T08:46:12.744304Z",
+        "finished_at": "2026-11-17T08:46:12.744304Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-11-17T08:46:12.744304Z",
+        "finished_at": "2026-11-17T08:46:16.974228Z"
+    },
+    "verifier": {
+        "started_at": "2026-11-17T08:46:17.788797Z",
+        "finished_at": "2026-11-17T08:46:54.755495Z"
+    },
+    "step_results": null
+}

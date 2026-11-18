@@ -1,0 +1,8 @@
+{
+    "job_name": "figlet-equivalence-oracle-01",
+    "tasks": [
+        {
+            "path": "."
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "job_name": "figlet-equivalence-nop-01",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "."
+        }
+    ]
+}

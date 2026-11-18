@@ -1,0 +1,28 @@
+=== GRADER STARTUP ===
+=== LOADING HIDDEN DATA ===
+Loaded 2000 records.
+
+=== BUILD ===
+--- go build -o /tmp/figlet . FAILED ---
+go: go.mod file not found in current directory or any parent directory; see 'go help modules'
+
+--- go build ./... FAILED ---
+pattern ./...: directory prefix . does not contain main module or its selected dependencies
+
+Build: FAIL — skipping behavior tests
+
+=== BEHAVIOR ===
+Skipped (build failed).
+
+=== NO_PYTHON CHECK ===
+Build failed — no_python = 0
+
+=== SECRET ===
+No secret for you. Yet.
+
+=== REWARD ===
+build     = 0
+no_python = 0
+behaviour = 0.000000
+reward    = 0.000000
+Wrote /logs/verifier/reward.json
