@@ -1,0 +1,9 @@
+# Harbor results and generated folders never belong in the task.
+jobs/
+figlet-go-cheat/
+
+# Python and editor leftovers (tests/gen.py, tests/spotcheck.py).
+__pycache__/
+*.pyc
+.DS_Store
+*.swp

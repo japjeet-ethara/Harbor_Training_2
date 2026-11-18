@@ -1,0 +1,33 @@
+schema_version = "1.4"
+artifacts = []
+
+[task]
+name = "practice/figlet-go"
+version = "1.0.0"
+description = "Port pyfiglet to Go, byte for byte"
+authors = [{ name = "Sakshi Singh", email = "sakshi.singh@ethara.ai" }]
+keywords = []
+
+[metadata]
+author_name = "Sakshi Singh"
+author_email = "sakshi.singh@ethara.ai"
+[verifier]
+timeout_sec = 900.0
+environment_mode = "shared"
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 3600.0
+user = "player"
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900.0
+os = "linux"
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]

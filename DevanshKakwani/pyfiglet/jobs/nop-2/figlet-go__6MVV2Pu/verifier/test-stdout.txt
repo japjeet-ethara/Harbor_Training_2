@@ -1,0 +1,5 @@
+build: FAILED: exit status 1
+go: go.mod file not found in current directory or any parent directory; see 'go help modules'
+
+behaviour: 0/2000 hidden cases passed
+{"reward":0,"build":0,"no_python":0,"behaviour":0,"passed":0,"total":2000}

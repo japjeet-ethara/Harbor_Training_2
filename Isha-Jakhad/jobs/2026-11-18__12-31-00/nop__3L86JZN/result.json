@@ -1,0 +1,123 @@
+{
+    "id": "04590199-5831-44ec-89fd-6870223ec65a",
+    "task_name": "isha/figlet-go",
+    "trial_name": "nop__3L86JZN",
+    "trial_uri": "file:///C:/Users/IshaJakhad/figlet-go/jobs/2026-11-18__12-31-00/nop__3L86JZN",
+    "task_id": {
+        "path": "C:\\Users\\IshaJakhad\\AppData\\Local\\Temp\\figlet-go-validation-20261118\\nop"
+    },
+    "source": null,
+    "task_checksum": "bfab0f2f20dcad811fa49ddbd3f6bc189ea109097c83c5913039da96d4c44413",
+    "config": {
+        "task": {
+            "path": "C:\\Users\\IshaJakhad\\AppData\\Local\\Temp\\figlet-go-validation-20261118\\nop",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "nop__3L86JZN",
+        "trials_dir": "jobs\\2026-11-18__12-31-00",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "nop",
+            "import_path": null,
+            "model_name": null,
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "b2df2770-36a6-49f1-903f-5d4795d06db0",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "nop",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0,
+            "build": 0,
+            "no_python": 0,
+            "behaviour": 0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-11-18T07:01:03.902487Z",
+    "finished_at": "2026-11-18T07:01:51.481962Z",
+    "environment_setup": {
+        "started_at": "2026-11-18T07:01:04.168771Z",
+        "finished_at": "2026-11-18T07:01:21.714914Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-11-18T07:01:21.714914Z",
+        "finished_at": "2026-11-18T07:01:21.714914Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-11-18T07:01:21.714914Z",
+        "finished_at": "2026-11-18T07:01:21.714914Z"
+    },
+    "verifier": {
+        "started_at": "2026-11-18T07:01:28.827554Z",
+        "finished_at": "2026-11-18T07:01:46.377132Z"
+    },
+    "step_results": null
+}

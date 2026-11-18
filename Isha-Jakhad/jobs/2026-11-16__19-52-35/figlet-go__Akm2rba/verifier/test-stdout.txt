@@ -1,0 +1,21 @@
+Loaded 2000 hidden cases from /tests/data/hidden.jsonl.
+Building in /workspace/repo: go build -o /tmp/figlet .
+Build succeeded.
+Behaviour: 2000/2000 cases passed (1.000000).
+No .py files found under /workspace/repo.
+Scores: build=1 no_python=1 behaviour=1.000000 reward=1.000000
+Wrote reward to /logs/verifier/reward.json
+*** SECRET UNLOCKED ***
+          _                               __ 
+   ____  (_)_______     ____  ____  _____/ /_
+  / __ \/ / ___/ _ \   / __ \/ __ \/ ___/ __/
+ / / / / / /__/  __/  / /_/ / /_/ / /  / /__ 
+/_/ /_/_/\___/\___/  / .___/\____/_/   \__( )
+                    /_/                   |/ 
+    __                              
+   / /_  __  ______ ___  ____ _____ 
+  / __ \/ / / / __ `__ \/ __ `/ __ \
+ / / / / /_/ / / / / / / /_/ / / / /
+/_/ /_/\__,_/_/ /_/ /_/\__,_/_/ /_/ 
+                                    
+

@@ -1,0 +1,67 @@
+{
+    "schema_version": 3,
+    "created_at": "2026-11-18T07:02:19.140153Z",
+    "harbor": {
+        "version": "0.25.0",
+        "is_editable": false
+    },
+    "n_concurrent_trials": 4,
+    "retry": {
+        "max_retries": 0,
+        "exclude_exceptions": [
+            "RewardFileEmptyError",
+            "ApiUsageLimitError",
+            "AgentSafetyRefusalError",
+            "UnsupportedModelParametersError",
+            "AgentTimeoutError",
+            "VerifierTimeoutError",
+            "AgentAuthenticationError",
+            "RewardFileNotFoundError",
+            "VerifierOutputParseError",
+            "ModelNotFoundError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "schema_version": 2,
+            "task": {
+                "name": "cheat",
+                "version": "1.0.0",
+                "type": "local",
+                "digest": "sha256:b931e4f7ece40864b79c4c38c70dfd6ccc1e3a47258deb642ab6dc48caa01713",
+                "path": "C:\\Users\\IshaJakhad\\AppData\\Local\\Temp\\figlet-go-validation-20261118\\cheat"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "oracle",
+                "skip_model_parsing": false,
+                "skills": [],
+                "resume_trajectory": false,
+                "extra_allowed_hosts": [],
+                "kwargs": {},
+                "mcp_servers": []
+            },
+            "bridge_inputs": {},
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "stream": false,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false,
+                "environment_mode": "shared"
+            }
+        }
+    ]
+}

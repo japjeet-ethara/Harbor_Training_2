@@ -1,0 +1,34 @@
+==========================================
+PyFiglet Go Task Grader
+Repo Directory:   /workspace/repo
+Tests Directory:  /tests
+Figlet Binary:    /tmp/figlet
+Logs Directory:   /logs/verifier
+==========================================
+
+[1/3] Running Build Check...
+  Build Check: FAILED (score: 0.0)
+  Error: exit status 1
+  Output:
+go: go.mod file not found in current directory or any parent directory; see 'go help modules'
+
+
+Loaded 2000 hidden test cases from /tests/data/hidden.jsonl
+
+[2/3] Running Behaviour Check...
+  Behaviour Check: SKIPPED (build failed or no test cases, score: 0.0)
+
+[3/3] Running No-Python Check...
+  No-Python Check: FAILED (buildPassed=false, hasPyFiles=true, exactMatches=0; score: 0.0)
+
+==========================================
+Score Summary
+==========================================
+Build Check (weight 1):     0.0000
+No-Python Check (weight 1): 0.0000
+Behaviour Check (weight 4): 0.0000 (0/2000 matches)
+Weighted Reward:            0.000000
+Reward JSON saved to:       /logs/verifier/reward.json
+==========================================
+
+No secret for you. Yet.

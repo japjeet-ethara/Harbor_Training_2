@@ -1,0 +1,57 @@
+{
+    "id": "a81ab3a9-52ee-42d6-971e-0d13c95b7a96",
+    "started_at": "2026-11-17T12:34:39.789633",
+    "updated_at": "2026-11-17T12:35:05.035171",
+    "finished_at": "2026-11-17T12:35:05.035171",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "nop__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "behaviour": 0.0,
+                        "build": 0.0,
+                        "no_python": 0.0,
+                        "reward": 0.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0": [
+                            "figlet-go__XLSVGRE"
+                        ]
+                    },
+                    "build": {
+                        "0": [
+                            "figlet-go__XLSVGRE"
+                        ]
+                    },
+                    "no_python": {
+                        "0": [
+                            "figlet-go__XLSVGRE"
+                        ]
+                    },
+                    "behaviour": {
+                        "0": [
+                            "figlet-go__XLSVGRE"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

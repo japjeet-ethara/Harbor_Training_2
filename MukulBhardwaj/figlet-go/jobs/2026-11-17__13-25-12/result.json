@@ -1,0 +1,57 @@
+{
+    "id": "00151a29-a3ac-410b-ba8f-a45e9630499b",
+    "started_at": "2026-11-17T13:25:14.405924",
+    "updated_at": "2026-11-17T13:25:47.549606",
+    "finished_at": "2026-11-17T13:25:47.549606",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "nop__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "behaviour": 0.0,
+                        "build": 0.0,
+                        "no_python": 0.0,
+                        "reward": 0.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0": [
+                            "figlet-go__R7H5ZdQ"
+                        ]
+                    },
+                    "build": {
+                        "0": [
+                            "figlet-go__R7H5ZdQ"
+                        ]
+                    },
+                    "no_python": {
+                        "0": [
+                            "figlet-go__R7H5ZdQ"
+                        ]
+                    },
+                    "behaviour": {
+                        "0": [
+                            "figlet-go__R7H5ZdQ"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

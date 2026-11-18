@@ -1,0 +1,2 @@
+Hardblank smushing was the most troublesome rule; its handling is coupled to glyph end-marker parsing, and the reverse/flip tables also needed exact matches.
+Docker trap: Alpine lacks Bash by default, so the image installs Bash to keep Harbor's shell working.

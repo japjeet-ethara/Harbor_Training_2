@@ -1,0 +1,5 @@
+build failed: exit status 1
+go: go.mod file not found in current directory or any parent directory; see 'go help modules'
+
+build=0.00 no_python=0.00 behaviour=0.0000 (0/2000) reward=0.0000
+No secret for you. Yet.

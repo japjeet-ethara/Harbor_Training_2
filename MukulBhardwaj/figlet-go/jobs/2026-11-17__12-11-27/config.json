@@ -1,0 +1,13 @@
+{
+    "job_name": "2026-11-17__12-11-27",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "datasets": [
+        {
+            "path": "figlet-go"
+        }
+    ]
+}

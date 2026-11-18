@@ -1,0 +1,31 @@
+schema_version = "1.4"
+artifacts = []
+
+[task]
+name = "practice/figlet-go"
+version = "1.0.0"
+description = "Port pyfiglet's FIGlet renderer to Go, byte for byte."
+authors = [{ name = "Aman Tiwari", email = "aman.tiwari@ethara.ai" }]
+keywords = ["go", "port", "figlet", "ascii-art"]
+
+[metadata]
+
+[verifier]
+timeout_sec = 900.0
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 3600.0
+user = "player"
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900.0
+os = "linux"
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]

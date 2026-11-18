@@ -1,0 +1,13 @@
+{
+    "job_name": "2026-11-18__12-31-00",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "C:\\Users\\IshaJakhad\\AppData\\Local\\Temp\\figlet-go-validation-20261118\\nop"
+        }
+    ]
+}

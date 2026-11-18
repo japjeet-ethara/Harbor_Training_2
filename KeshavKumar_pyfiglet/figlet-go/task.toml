@@ -1,0 +1,35 @@
+schema_version = "1.4"
+artifacts = []
+
+[task]
+name = "local/figlet-go"
+version = "1.0.0"
+description = "Port pyfiglet to Go, byte for byte"
+authors = []
+keywords = []
+
+[metadata]
+
+[verifier]
+timeout_sec = 900.0
+environment_mode = "shared"
+# Grader runs as root so it can lock /tests (hidden answers, secret) away from the
+# agent's program, which grade.go runs as the unprivileged user "player".
+user = "root"
+collect = []
+
+[verifier.env]
+
+[agent]
+user = "player"
+timeout_sec = 3600.0
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900.0
+os = "linux"
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]
