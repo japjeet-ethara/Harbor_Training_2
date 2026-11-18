@@ -2,111 +2,202 @@
 
 ## Overview
 
-The goal of this task is to port the pinned `pyfiglet` Python command-line interface to a standalone Go program. The compiled Go binary must replicate the reference Python CLI's standard output byte-for-byte across all supported arguments, preserving all leading, trailing, and intermediate spaces and newlines.
+This Harbor task asks an agent to port the pinned `pyfiglet` Python CLI to a standalone Go program. The executable must match the original CLI's stdout byte for byte, including spaces and newlines.
+
+The task includes a Docker environment, reproducible datasets, a Go grader, an oracle solution, and a visible-answer lookup cheat used to validate the evaluation.
 
 ## Reference
 
-- **Upstream Repository:** https://github.com/pwaller/pyfiglet
-- **Pinned Commit:** `255827efbc09d662875dad50fa0edc1e1263bf45`
-- **Upstream Licence:** MIT License
-- **Font Scope:** Standard FIGlet fonts (`fonts-standard/`) only. Contributed fonts (`fonts-contrib/`) and test fonts are excluded.
+- **Upstream:** https://github.com/pwaller/pyfiglet
+- **Pinned commit:** `255827efbc09d662875dad50fa0edc1e1263bf45`
+- **Commit date:** `2026-08-02T22:51:18+01:00`
+- **Upstream licence:** MIT
+- **Font scope:** Standard fonts only; contributed and test fonts are excluded.
 
-## Requirements & Supported Options
+The pinned implementation is authoritative. `NOTES.md` records source analysis and development observations.
 
-- **Go Standard Library Only:** Implemented with Go 1.23 and standard library packages only (no external dependencies).
-- **Supported CLI Options:**
-  - `-f FONT`: font name (default: `standard`)
-  - `-w COLS`: terminal column width (default: `80`)
-  - `-j auto|left|center|right`: text justification (default: `auto`)
-  - `-D auto|left-to-right|right-to-left`: layout and printing direction (default: `auto`)
-  - `-r`: horizontal reverse (mirror) transformation
-  - `-F`: vertical flip transformation
-  - `-s`: strip leading empty lines and trailing whitespace
-  - `-n`: normalize surrounding newlines (`-s` takes precedence when both are provided)
-  - Non-option arguments represent the message text; multiple words are joined with single spaces.
-- **Build Targets:** Compiling from `/workspace/repo` must succeed for both:
-  ```bash
-  go build -o /tmp/figlet .
-  go build ./...
-  ```
-- **Repository Cleanliness:** No Python source files (`.py`) may remain under `/workspace/repo`.
-- **Font Availability:** Standard `.flf` font files must remain inside the repository and be embedded or accessible so `/tmp/figlet` functions from any working directory.
+## Requirements
+
+The finished solution must:
+
+- Use Go 1.23 and the Go standard library only.
+- Match the reference CLI's output exactly.
+- Remove all `.py` files from `/workspace/repo`.
+- Preserve standard `.flf` fonts inside the repository.
+- Work when invoked from any working directory.
+- Pass both build commands from `/workspace/repo`:
+
+```bash
+go build -o /tmp/figlet .
+go build ./...
+```
+
+### Supported Options
+
+| Option | Purpose |
+| --- | --- |
+| `-f FONT` | Font selection; default `standard` |
+| `-w COLS` | Layout width; default `80` |
+| `-j auto\|left\|center\|right` | Justification; default `auto` |
+| `-D auto\|left-to-right\|right-to-left` | Rendering direction; default `auto` |
+| `-r` | Mirror rendered output horizontally |
+| `-F` | Flip rendered output vertically |
+| `-s` | Strip surrounding blank lines and trailing whitespace |
+| `-n` | Normalize surrounding newlines |
+
+Automatic direction follows the font. Automatic justification follows the resolved direction. Explicit justification uses the selected width.
+
+Multiple text arguments are joined with single spaces. When both `-s` and `-n` are supplied, `-s` takes precedence.
+
+Performance, memory use, error-message wording, and options `-c`, `-L`, `-l`, and `-i` are outside the grading scope.
 
 ## Docker Environment
 
-Defined across `environment/Dockerfile` and `task.toml`:
-- **Two-Stage Docker Build:**
-  - **Stage 1 (`alpine/git:2.47.2`):** Clones `pyfiglet`, checks out commit `255827efbc09d662875dad50fa0edc1e1263bf45`, verifies the commit SHA, strips `.git/`, `fonts-contrib/`, and `test-fonts/`, and prepares `/src/pyfiglet/fonts/` by copying all files from `/src/pyfiglet/fonts-standard/`.
-  - **Stage 2 (`golang:1.23-alpine`):** Installs `bash`, creates non-root user `player` (UID 1000), and copies `/src` into `/workspace/repo` with `player:player` ownership. No Python runtime is installed in the final image.
-- **Task Configuration (`task.toml`):**
-  - Runs as non-root user `player` (UID 1000).
-  - Network mode: `public`.
-  - Verifier environment mode was explicitly selected as `shared` (`verifier.environment_mode = "shared"`) to match the assignment.
-  - Timeouts: agent 3600s, build 900s, verifier 900s.
+The Dockerfile uses two stages:
 
-## Task File Layout
+1. **Source preparation — `alpine/git:2.47.2`**
+   - Clones the upstream repository.
+   - Checks out and verifies the pinned commit.
+   - Removes Git metadata, contributed fonts, and test fonts.
+   - Copies `pyfiglet/fonts-standard/*` into `pyfiglet/fonts/`.
 
-| Path | Description |
+2. **Agent environment — `golang:1.23-alpine`**
+   - Installs bash.
+   - Creates non-root user `player`, UID 1000.
+   - Copies the prepared source into `/workspace/repo` with player ownership.
+   - Contains no Python interpreter.
+
+The final environment uses:
+
+```text
+USER player
+WORKDIR /workspace/repo
+CGO_ENABLED=0
+GOTOOLCHAIN=local
+```
+
+Runtime checks confirmed the user, UID, working directory, 72 prepared font files, bash availability, repository write access, and absence of `python` and `python3` commands.
+
+### Harbor Configuration
+
+| Setting | Value |
 | --- | --- |
-| `.gitattributes` | Enforces LF line endings across task text files. |
-| `.gitignore` | Ignores local build artifacts, OS files (`desktop.ini`, `.DS_Store`), and secrets. |
-| `NOTES.md` | Source-analysis notes analyzing `pyfiglet` font loader, smushing rules, and layout (the pinned implementation is authoritative). |
-| `README.md` | Task documentation, benchmark specification, and verification evidence. |
-| `task.toml` | Harbor benchmark task configuration. |
-| `instruction.md` | Task instructions provided to the agent. |
-| `environment/Dockerfile` | Multi-stage Docker build for source preparation and Go player runtime. |
-| `solution/solve.sh` | Canonical reference oracle solution script generating the pure Go port. |
-| `cheat/solve.sh` | Adversarial visible-only lookup cheat script. |
-| `tests/Dockerfile` | Test container image definition. |
-| `tests/test.sh` | Verifier entrypoint script (`cd /tests && go run grade.go`). |
-| `tests/grade.go` | Verifier grading program evaluating build, no-python, and behavioral cases. |
-| `tests/gen.py` | Deterministic test case generator for visible and hidden datasets. |
-| `tests/secret.b64` | Base64-encoded secret text unlocked upon 2000/2000 matches. |
-| `tests/test_outputs.py` | Legacy output comparison test script. |
-| `tests/data/visible.jsonl` | 2,000 public test cases with CLI args and reference outputs. |
-| `tests/data/hidden.jsonl` | 2,000 private evaluation test cases with CLI args and reference outputs. |
-| `screenshot/Oracle.png` | Verifier terminal screenshot showing oracle execution and unlocked secret banner. |
-| `screenshot/NOP.png` | Verifier terminal screenshot showing baseline nop run. |
-| `screenshot/Cheat.png` | Verifier terminal screenshot showing visible-only cheat run. |
+| Agent user | `player` |
+| Agent timeout | 3600 seconds |
+| Environment build timeout | 900 seconds |
+| Verifier timeout | 900 seconds |
+| Network mode | `public` |
+| Verifier mode | `shared` |
 
-## Seeded Datasets
+The generated verifier mode was explicitly changed from `separate` to `shared` to match the assignment.
 
-Test datasets were generated deterministically using `tests/gen.py`:
-- **Deterministic Seed:** Seeded with `random.seed(7)`.
-- **Case Counts:** Exactly 2,000 visible records (`tests/data/visible.jsonl`) and 2,000 hidden records (`tests/data/hidden.jsonl`).
-- **Disjoint Splits:** Zero argument-array overlap between visible and hidden datasets (`len(visible & hidden) == 0`), with all 2,000 argument lists within each split being unique.
-- **Reference Output Fidelity:** Captured directly from the reference Python CLI stdout without trimming or normalizing characters.
-- **Coverage:** Exercises all eight standard fonts (`standard`, `slant`, `small`, `big`, `mini`, `banner`, `shadow`, `script`), column widths 10-120, justifications, directions, transformations (`-r`, `-F`, `-s`, `-n`), boundary whitespace, long text requiring multiline wrapping, and extended Unicode characters.
+## File Layout
 
-## Grader Formula
+| Path | Purpose |
+| --- | --- |
+| `.gitattributes` | Preserves LF endings for text files |
+| `.gitignore` | Excludes local artifacts, OS metadata, and `.env` files |
+| `NOTES.md` | Source-analysis notes and candidate edge cases |
+| `README.md` | Task documentation and validation results |
+| `task.toml` | Harbor configuration |
+| `instruction.md` | Instructions presented to the solving agent |
+| `environment/Dockerfile` | Two-stage source preparation and agent environment |
+| `solution/solve.sh` | Writes and builds the oracle's Go implementation |
+| `cheat/solve.sh` | Writes a visible-answer lookup implementation |
+| `tests/gen.py` | Generates cases using the original CLI |
+| `tests/data/visible.jsonl` | 2,000 visible cases and reference outputs |
+| `tests/data/hidden.jsonl` | 2,000 hidden evaluation cases and reference outputs |
+| `tests/grade.go` | Go grader |
+| `tests/test.sh` | Active verifier entrypoint |
+| `tests/secret.b64` | Encoded task message, rendered after perfect behaviour |
+| `tests/Dockerfile` | Retained scaffold file; verification uses the shared environment |
+| `tests/test_outputs.py` | Retained scaffold file; not invoked by the active verifier |
+| `screenshot/Oracle.png` | Oracle reward table |
+| `screenshot/NOP.png` | Nop evaluation result |
+| `screenshot/Cheat.png` | Cheat evaluation result |
 
-Evaluation is performed automatically by `tests/grade.go` and written to `/logs/verifier/reward.json`:
+Hidden cases are withheld from the solving agent during evaluation. Their presence in this submission repository does not make them confidential.
 
-$$\text{reward} = \frac{\text{build} + \text{no\_python} + 4 \times \text{behaviour}}{6}$$
+## Dataset Generation
 
-- **`build` (weight: 1/6):** Awards `1.0` if both `go build -o /tmp/figlet .` and `go build ./...` succeed from `/workspace/repo`; otherwise `0.0`.
-- **`no_python` (weight: 1/6):** Awards `1.0` if `build == 1.0`, zero `.py` files remain in `/workspace/repo`, and `matchingCases >= 1`; otherwise `0.0`.
-- **`behaviour` (weight: 4/6):** Evaluates all 2,000 hidden cases from `tests/data/hidden.jsonl`. Each case runs `/tmp/figlet [args...]` from `/tmp` with a 5-second timeout. Score is `matchingCases / 2000.0`.
-- **Secret Unlock Mechanism:** If all 2,000 hidden cases pass, `grade.go` decodes `tests/secret.b64` and renders the banner using `/tmp/figlet -f slant <decoded>`. If any case fails, it outputs `No secret for you. Yet.`.
+The generator uses `random.seed(7)` and runs the original Python CLI to obtain every expected output.
+
+- Exactly **2,000 visible** and **2,000 hidden** records.
+- Unique argument arrays within each split.
+- **Zero argument-array overlap** between splits.
+- Stdout captured without whitespace or newline normalization.
+- Failed or timed-out reference invocations excluded.
+
+Coverage includes:
+
+- Fonts: `standard`, `slant`, `small`, `big`, `mini`, `banner`, `shadow`, `script`.
+- Widths: `10`, `20`, `40`, `60`, `80`, `120`.
+- All supported justification and direction values.
+- Boolean-option combinations, including `-s` with `-n`.
+- Punctuation, repeated characters, boundary whitespace, Latin-1 characters, and missing glyphs.
+- Long text requiring multiline wrapping.
+- Right-to-left rendering combined with narrow widths.
+
+Two generation runs produced identical hashes for both datasets. Independent checks validated file structure, encoding, record counts, uniqueness, and split separation. Three selected cases were rerun against the reference and matched byte for byte.
+
+### Regenerate Answers
+
+Keep the pinned, font-prepared `pyfiglet` checkout beside `figlet-go`. From the task folder in PowerShell:
+
+```powershell
+$env:PYTHONUTF8 = '1'
+$env:PYTHONDONTWRITEBYTECODE = '1'
+python .\tests\gen.py
+```
+
+Never edit expected outputs manually.
+
+## Grading
+
+The active verifier runs:
+
+```bash
+cd /tests && go run grade.go
+```
+
+It writes `/logs/verifier/reward.json` using:
+
+```text
+reward = (build + no_python + 4 × behaviour) / 6
+```
+
+| Component | Weight | Condition |
+| --- | ---: | --- |
+| `build` | 1 | Both required Go build commands succeed |
+| `no_python` | 1 | Build succeeds, no `.py` files remain, and at least one hidden case matches |
+| `behaviour` | 4 | Fraction of hidden cases producing exact stdout with successful execution |
+
+Each behavioural invocation runs from `/tmp` with a five-second timeout. A failed or timed-out process cannot receive a match.
+
+Only a perfect behavioural result triggers decoding and rendering of the task's encoded message. Otherwise the grader prints:
+
+```text
+No secret for you. Yet.
+```
 
 ## Verified Results
 
-The following evaluation scores were recorded from user-executed Harbor job runs:
+Evidence: user-executed runs and inspected verifier output.
 
-| Run | Build | No_python | Behaviour | Total Reward |
-| --- | :---: | :---: | :---: | :---: |
-| **Oracle** (`solution/solve.sh`) | 1.0 | 1.0 | 1.0 | **1.000000** |
-| **NOP Baseline** | 0.0 | 0.0 | 0.0 | **0.000000** |
-| **Visible Cheat** (`cheat/solve.sh`) | 1.0 | 0.0 | 0.0 | **0.166667** ($1/6$) |
+| Run | Build | No Python | Behaviour | Reward |
+| --- | ---: | ---: | ---: | ---: |
+| Oracle | 1 | 1 | 1 | **1.0** |
+| Nop | 0 | 0 | 0 | **0.0** |
+| Visible-answer cheat | 1 | 0 | 0 | **0.16666666666666666** |
 
-### Run Highlights
+- The actual compiled Go executable matched **2,000/2,000 visible cases**.
+- The Harbor oracle matched **2,000/2,000 hidden cases** and unlocked the task banner.
+- The cheat matched **0/2,000 hidden cases** and received no secret.
+- The real oracle was restored after the cheat run, with its original SHA256 hash verified.
 
-- **Oracle:** The actual Go executable compiled cleanly, removed all Python files, and achieved 2000/2000 exact byte matches on hidden cases (and 2000/2000 on visible cases), successfully unlocking the task banner.
-- **NOP Baseline:** Failed the build step immediately as expected, receiving 0.0 across all components.
-- **Cheat:** Successfully compiled and embedded visible cases (`build = 1.0`), but achieved 0/2000 on hidden cases due to disjoint datasets. Because `matchingCases == 0`, `no_python` remained 0.0, yielding a reward of 0.16666666666666666 ($1/6$) with no secret revealed.
-- **Restoration:** The real oracle was restored and its SHA256 hash verified after testing the cheat.
+These results establish correctness on the generated datasets, not every possible input.
 
-## Commands to Run Evaluation
+### Run Evaluation
 
 From the `Harbor_Training_2` repository root in PowerShell:
 
@@ -115,25 +206,31 @@ harbor run -p ".\Vishu Porwal\figlet-go" -a oracle
 harbor run -p ".\Vishu Porwal\figlet-go" -a nop
 ```
 
-## Honest Reflections
+Inspect the new job's `verifier/reward.json` and `verifier/test-stdout.txt`. A successful Harbor exit alone does not establish the expected reward.
 
-- **Smushing:** No rendering-rule failure was observed in the recorded runs; Big-X required care because its code differs from its comment.
-- **Docker:** No build failure occurred; font preparation, Alpine, and bash addressed the required setup traps.
-- **Verifier Configuration:** Shared verification was explicitly selected in `task.toml` (`verifier.environment_mode = "shared"`) to match the assignment.
+The cheat was evaluated through the oracle runner by temporarily substituting its script, then restoring the real oracle with a guarded backup-and-restore procedure. Its screenshot therefore carries the runner label `oracle`.
 
-## Known Limitations
+## Screenshots
 
-- **Oversized Glyphs:** Glyphs whose width exceeds `-w` are skipped during rendering in `solution/solve.sh` rather than raising pyfiglet's uncaught `CharNotPrinted` exception. Failed reference invocations were excluded from the datasets and error-path equivalence is unverified.
+### Oracle — Reward 1.0
 
-## Verification Evidence
+The screenshot shows the reward table. The unlocked task banner was verified separately in the verifier log.
 
-### Screenshots
+![Oracle reward](screenshot/Oracle.png)
 
-- **Oracle Run:**
-  ![Oracle Run](screenshot/Oracle.png)
+### Nop — Reward 0.0
 
-- **NOP Baseline Run:**
-  ![NOP Run](screenshot/NOP.png)
+![Nop reward](screenshot/NOP.png)
 
-- **Cheat Run:**
-  ![Cheat Run](screenshot/Cheat.png)
+### Cheat — Reward Below 0.2
+
+![Cheat reward](screenshot/Cheat.png)
+
+## Reflection
+
+- **Smushing:** No rendering-rule failure was observed in the recorded compiled-port runs. Big-X required care because `/` followed by `\` returns `|`, despite the misleading source comment.
+- **Docker:** No Docker build failure occurred. Standard-font preparation, Go Alpine, and explicit bash installation addressed the required setup traps.
+
+## Known Limitation
+
+The reviewed oracle skips glyphs wider than the selected width, whereas the Python reference raises `CharNotPrinted`. Failed reference invocations were excluded from the datasets, so error-path equivalence remains unverified.
