@@ -1,0 +1,18 @@
+Image=sha256:0d73c0412add9fdcfc11cc52dd0ad2e76733adf6da2cc62fc0f1ce861df55a79 User=player Workdir=/workspace/repo
+WORKDIR /workspace/repo
+USER player
+ENV CGO_ENABLED=0 GOTOOLCHAIN=local
+COPY --chown=player:player /src/ /workspace/repo/ # buildkit
+RUN /bin/sh -c apk add --no-cache bash && adduser -D -u 1000 player # buildkit
+WORKDIR /go
+RUN /bin/sh -c mkdir -p "$GOPATH/src" "$GOPATH/bin" && chmod -R 1777 "$GOPATH" # buildkit
+COPY /target/ / # buildkit
+player
+uid=1000(player) gid=1000(player) groups=1000(player)
+/workspace/repo
+1000:1000 /workspace/repo
+FONT_COUNT=72
+NO_PYTHON
+/bin/bash
+CAN_WRITE
+go version go1.23.12 linux/amd64

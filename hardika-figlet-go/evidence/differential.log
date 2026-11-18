@@ -1,0 +1,6 @@
+visible: 2000/2000 byte-exact matches
+hidden: 2000/2000 byte-exact matches
+targeted across all standard fonts: 813/813 byte-exact matches
+Independent python -m pyfiglet check matched visible:123 (833 bytes)
+Independent python -m pyfiglet check matched hidden:902 (491 bytes)
+Independent python -m pyfiglet check matched hidden:1548 (1745 bytes)

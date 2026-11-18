@@ -1,0 +1,9 @@
+{
+    "job_name": "oracle",
+    "jobs_dir": "baseline-delivery/harbor",
+    "tasks": [
+        {
+            "path": "hardika-figlet-go"
+        }
+    ]
+}

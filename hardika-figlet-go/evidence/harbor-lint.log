@@ -1,0 +1,1 @@
+hardika-figlet-go/task.toml [shared-verifier] Verifier shares the agent sandbox; set verifier.environment_mode = "separate", including shared step overrides.

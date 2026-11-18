@@ -1,0 +1,9 @@
+{
+    "job_name": "cheat",
+    "jobs_dir": "baseline-delivery/harbor",
+    "tasks": [
+        {
+            "path": "baseline-delivery/cheat-task/hardika-figlet-go"
+        }
+    ]
+}

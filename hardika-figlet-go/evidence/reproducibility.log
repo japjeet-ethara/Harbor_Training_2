@@ -1,0 +1,7 @@
+Two independent generator executions produced identical JSONL, coverage, and rejection logs.
+   2000 tests/data/hidden.jsonl
+   2000 tests/data/visible.jsonl
+   4000 total
+16cc71e2fb00a3028285e95fa68d80218dfc761910cec3485d5288e8133d3b81  tests/data/hidden.jsonl
+776aad1ef881f4e3849da338762a90caa2ed69e3c3f3570fc5edfb7032e1834e  tests/data/visible.jsonl
+4,000 distinct argument vectors and outputs with ink

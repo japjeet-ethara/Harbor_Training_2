@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "hardika-figlet-go"
+    },
+    "trial_name": "hardika-figlet-go__NSFVH64",
+    "trials_dir": "baseline-delivery/harbor/nop",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "c0096f9f-6c7d-4044-9923-1c28420ff53a"
+}

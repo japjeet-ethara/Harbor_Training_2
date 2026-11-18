@@ -1,0 +1,16 @@
+case 1 args ["-D" "left-to-right" "-f" "standard" "-j" "right" "-s" "-w" "60" "--" "Lanternsλ<wing"], error <nil>
+  expected "     _                _                       __         _ \n    | |    __ _ _ __ | |_ ___ _ __ _ __  ___ / /_      _(_)\n    | |   / _` | '_ \\| __/ _ \\ '__| '_ \\/ __/ /\\ \\ /\\ / / |\n    | |__| (_| | | | | ||  __/ |  | | | \\__ \\ \\ \\ V  V /| |\n[…]"
+  actual   ""
+case 2 args ["-w" "40" "-f" "shadow" "-D" "auto" "-s" "-r" "-j" "right" "--" "Vessels" "case|" "Peña"], error <nil>
+  expected "      |                   \\     / /    \n |__  | / _  |__  |__  / _ \\   / /     \n / __/| \\__  / __// __/\\__  \\ / /      \n \\____|_|___/\\____\\____|___/ \\_/       \n                                       \n |                                     \n[…]"
+  actual   ""
+case 3 args ["-n" "-f" "shadow" "-w" "20" "-j" "center" "-D" "left-to-right" "--" "Atlas () plate"], error <nil>
+  expected "\n      \\    |   | \n     _ \\   __| | \n    ___ \\  |   | \n  _/    _\\\\__|_| \n                 \n                \n      _` |  __| \n     (   |\\__ \\ \n    \\__,_|____/ \n                \n        /\\ \\  \n       |    | \n       |    | \n       |    | \n    […]"
+  actual   ""
+case 4 args ["-w" "40" "-j" "auto" "-f" "big" "-D" "right-to-left" "-n" "--" "Peña / Hypatia  papers"], error <nil>
+  expected "\n                 __             _____  \n                / /            |  __ \\ \n               / /    __ _  ___| |__) |\n              / /    / _` |/ _ \\  ___/ \n             / /    | (_| |  __/ |     \n            /_/      \\__,_|\\___|_|     […]"
+  actual   ""
+case 5 args ["-w" "20" "-f" "slant" "-D" "left-to-right" "-j" "auto" "--" "Noël ) Folio  plate"], error <nil>
+  expected "    _   __      __\n   / | / /___  / /\n  /  |/ / __ \\/ / \n / /|  / /_/ / /  \n/_/ |_/\\____/_/   \n                  \n     _ \n    | |\n    / /\n   / / \n _/_/  \n/_/    \n    ______      __\n   / ____/___  / /\n  / /_  / __ \\/ / \n / __/ / /_/ / /  \n/_[…]"
+  actual   ""
+No secret for you. Yet.

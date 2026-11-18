@@ -1,0 +1,14 @@
+{
+    "job_name": "nop",
+    "jobs_dir": "baseline-delivery/harbor",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "hardika-figlet-go"
+        }
+    ]
+}

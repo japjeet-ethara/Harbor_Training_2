@@ -1,0 +1,212 @@
+=== RUN   TestStandardFontsParse
+=== RUN   TestStandardFontsParse/5x7
+=== RUN   TestStandardFontsParse/5x8
+=== RUN   TestStandardFontsParse/6x9
+=== RUN   TestStandardFontsParse/banner
+=== RUN   TestStandardFontsParse/big
+=== RUN   TestStandardFontsParse/block
+=== RUN   TestStandardFontsParse/blocky_25
+=== RUN   TestStandardFontsParse/bubble
+=== RUN   TestStandardFontsParse/chartr
+=== RUN   TestStandardFontsParse/chartri
+=== RUN   TestStandardFontsParse/clb6x10
+=== RUN   TestStandardFontsParse/clb8x10
+=== RUN   TestStandardFontsParse/clb8x8
+=== RUN   TestStandardFontsParse/cli8x8
+=== RUN   TestStandardFontsParse/clr4x6
+=== RUN   TestStandardFontsParse/clr5x10
+=== RUN   TestStandardFontsParse/clr5x6
+=== RUN   TestStandardFontsParse/clr5x8
+=== RUN   TestStandardFontsParse/clr6x10
+=== RUN   TestStandardFontsParse/clr6x6
+=== RUN   TestStandardFontsParse/clr6x8
+=== RUN   TestStandardFontsParse/clr7x10
+=== RUN   TestStandardFontsParse/clr7x8
+=== RUN   TestStandardFontsParse/clr8x10
+=== RUN   TestStandardFontsParse/clr8x8
+=== RUN   TestStandardFontsParse/cour
+=== RUN   TestStandardFontsParse/courb
+=== RUN   TestStandardFontsParse/courbi
+=== RUN   TestStandardFontsParse/couri
+=== RUN   TestStandardFontsParse/digital
+=== RUN   TestStandardFontsParse/helv
+=== RUN   TestStandardFontsParse/helvb
+=== RUN   TestStandardFontsParse/helvbi
+=== RUN   TestStandardFontsParse/helvi
+=== RUN   TestStandardFontsParse/ivrit
+=== RUN   TestStandardFontsParse/lean
+=== RUN   TestStandardFontsParse/mini
+=== RUN   TestStandardFontsParse/mnemonic
+=== RUN   TestStandardFontsParse/sbook
+=== RUN   TestStandardFontsParse/sbookb
+=== RUN   TestStandardFontsParse/sbookbi
+=== RUN   TestStandardFontsParse/sbooki
+=== RUN   TestStandardFontsParse/script
+=== RUN   TestStandardFontsParse/shadow
+=== RUN   TestStandardFontsParse/slant
+=== RUN   TestStandardFontsParse/small
+=== RUN   TestStandardFontsParse/smscript
+=== RUN   TestStandardFontsParse/smshadow
+=== RUN   TestStandardFontsParse/smslant
+=== RUN   TestStandardFontsParse/standard
+=== RUN   TestStandardFontsParse/term
+=== RUN   TestStandardFontsParse/times
+=== RUN   TestStandardFontsParse/xchartr
+=== RUN   TestStandardFontsParse/xchartri
+=== RUN   TestStandardFontsParse/xcour
+=== RUN   TestStandardFontsParse/xcourb
+=== RUN   TestStandardFontsParse/xcourbi
+=== RUN   TestStandardFontsParse/xcouri
+=== RUN   TestStandardFontsParse/xhelv
+=== RUN   TestStandardFontsParse/xhelvb
+=== RUN   TestStandardFontsParse/xhelvbi
+=== RUN   TestStandardFontsParse/xhelvi
+=== RUN   TestStandardFontsParse/xsbook
+=== RUN   TestStandardFontsParse/xsbookb
+=== RUN   TestStandardFontsParse/xsbookbi
+=== RUN   TestStandardFontsParse/xsbooki
+=== RUN   TestStandardFontsParse/xtimes
+--- PASS: TestStandardFontsParse (0.03s)
+    --- PASS: TestStandardFontsParse/5x7 (0.00s)
+    --- PASS: TestStandardFontsParse/5x8 (0.00s)
+    --- PASS: TestStandardFontsParse/6x9 (0.00s)
+    --- PASS: TestStandardFontsParse/banner (0.00s)
+    --- PASS: TestStandardFontsParse/big (0.00s)
+    --- PASS: TestStandardFontsParse/block (0.00s)
+    --- PASS: TestStandardFontsParse/blocky_25 (0.00s)
+    --- PASS: TestStandardFontsParse/bubble (0.00s)
+    --- PASS: TestStandardFontsParse/chartr (0.00s)
+    --- PASS: TestStandardFontsParse/chartri (0.00s)
+    --- PASS: TestStandardFontsParse/clb6x10 (0.00s)
+    --- PASS: TestStandardFontsParse/clb8x10 (0.00s)
+    --- PASS: TestStandardFontsParse/clb8x8 (0.00s)
+    --- PASS: TestStandardFontsParse/cli8x8 (0.00s)
+    --- PASS: TestStandardFontsParse/clr4x6 (0.00s)
+    --- PASS: TestStandardFontsParse/clr5x10 (0.00s)
+    --- PASS: TestStandardFontsParse/clr5x6 (0.00s)
+    --- PASS: TestStandardFontsParse/clr5x8 (0.00s)
+    --- PASS: TestStandardFontsParse/clr6x10 (0.00s)
+    --- PASS: TestStandardFontsParse/clr6x6 (0.00s)
+    --- PASS: TestStandardFontsParse/clr6x8 (0.00s)
+    --- PASS: TestStandardFontsParse/clr7x10 (0.00s)
+    --- PASS: TestStandardFontsParse/clr7x8 (0.00s)
+    --- PASS: TestStandardFontsParse/clr8x10 (0.00s)
+    --- PASS: TestStandardFontsParse/clr8x8 (0.00s)
+    --- PASS: TestStandardFontsParse/cour (0.00s)
+    --- PASS: TestStandardFontsParse/courb (0.00s)
+    --- PASS: TestStandardFontsParse/courbi (0.00s)
+    --- PASS: TestStandardFontsParse/couri (0.00s)
+    --- PASS: TestStandardFontsParse/digital (0.00s)
+    --- PASS: TestStandardFontsParse/helv (0.00s)
+    --- PASS: TestStandardFontsParse/helvb (0.00s)
+    --- PASS: TestStandardFontsParse/helvbi (0.00s)
+    --- PASS: TestStandardFontsParse/helvi (0.00s)
+    --- PASS: TestStandardFontsParse/ivrit (0.00s)
+    --- PASS: TestStandardFontsParse/lean (0.00s)
+    --- PASS: TestStandardFontsParse/mini (0.00s)
+    --- PASS: TestStandardFontsParse/mnemonic (0.00s)
+    --- PASS: TestStandardFontsParse/sbook (0.00s)
+    --- PASS: TestStandardFontsParse/sbookb (0.00s)
+    --- PASS: TestStandardFontsParse/sbookbi (0.00s)
+    --- PASS: TestStandardFontsParse/sbooki (0.00s)
+    --- PASS: TestStandardFontsParse/script (0.00s)
+    --- PASS: TestStandardFontsParse/shadow (0.00s)
+    --- PASS: TestStandardFontsParse/slant (0.00s)
+    --- PASS: TestStandardFontsParse/small (0.00s)
+    --- PASS: TestStandardFontsParse/smscript (0.00s)
+    --- PASS: TestStandardFontsParse/smshadow (0.00s)
+    --- PASS: TestStandardFontsParse/smslant (0.00s)
+    --- PASS: TestStandardFontsParse/standard (0.00s)
+    --- PASS: TestStandardFontsParse/term (0.00s)
+    --- PASS: TestStandardFontsParse/times (0.00s)
+    --- PASS: TestStandardFontsParse/xchartr (0.00s)
+    --- PASS: TestStandardFontsParse/xchartri (0.00s)
+    --- PASS: TestStandardFontsParse/xcour (0.00s)
+    --- PASS: TestStandardFontsParse/xcourb (0.00s)
+    --- PASS: TestStandardFontsParse/xcourbi (0.00s)
+    --- PASS: TestStandardFontsParse/xcouri (0.00s)
+    --- PASS: TestStandardFontsParse/xhelv (0.00s)
+    --- PASS: TestStandardFontsParse/xhelvb (0.00s)
+    --- PASS: TestStandardFontsParse/xhelvbi (0.00s)
+    --- PASS: TestStandardFontsParse/xhelvi (0.00s)
+    --- PASS: TestStandardFontsParse/xsbook (0.00s)
+    --- PASS: TestStandardFontsParse/xsbookb (0.00s)
+    --- PASS: TestStandardFontsParse/xsbookbi (0.00s)
+    --- PASS: TestStandardFontsParse/xsbooki (0.00s)
+    --- PASS: TestStandardFontsParse/xtimes (0.00s)
+=== RUN   TestSplitLines
+--- PASS: TestSplitLines (0.00s)
+=== RUN   TestCollisions
+=== RUN   TestCollisions/equal
+=== RUN   TestCollisions/underscore
+=== RUN   TestCollisions/hierarchy
+=== RUN   TestCollisions/opposite
+=== RUN   TestCollisions/forward_slash_first
+=== RUN   TestCollisions/backward_slash_first
+=== RUN   TestCollisions/big_X
+=== RUN   TestCollisions/hardblank_pair
+=== RUN   TestCollisions/hardblank_is_protected
+=== RUN   TestCollisions/kerning
+=== RUN   TestCollisions/no_smush_while_kerning
+=== RUN   TestCollisions/one_column
+=== RUN   TestCollisions/universal_LTR
+=== RUN   TestCollisions/universal_RTL
+=== RUN   TestCollisions/universal_ink_wins
+--- PASS: TestCollisions (0.00s)
+    --- PASS: TestCollisions/equal (0.00s)
+    --- PASS: TestCollisions/underscore (0.00s)
+    --- PASS: TestCollisions/hierarchy (0.00s)
+    --- PASS: TestCollisions/opposite (0.00s)
+    --- PASS: TestCollisions/forward_slash_first (0.00s)
+    --- PASS: TestCollisions/backward_slash_first (0.00s)
+    --- PASS: TestCollisions/big_X (0.00s)
+    --- PASS: TestCollisions/hardblank_pair (0.00s)
+    --- PASS: TestCollisions/hardblank_is_protected (0.00s)
+    --- PASS: TestCollisions/kerning (0.00s)
+    --- PASS: TestCollisions/no_smush_while_kerning (0.00s)
+    --- PASS: TestCollisions/one_column (0.00s)
+    --- PASS: TestCollisions/universal_LTR (0.00s)
+    --- PASS: TestCollisions/universal_RTL (0.00s)
+    --- PASS: TestCollisions/universal_ink_wins (0.00s)
+=== RUN   TestPlanReplaysBlankRollback
+--- PASS: TestPlanReplaysBlankRollback (0.00s)
+=== RUN   TestCLI
+=== RUN   TestCLI/default_fonts_embedded
+=== RUN   TestCLI/options_interspersed
+=== RUN   TestCLI/literal_hyphen_with_terminator
+=== RUN   TestCLI/transforms
+=== RUN   TestCLI/normalization
+=== RUN   TestCLI/legacy_octal_width
+=== RUN   TestCLI/hexadecimal_width
+--- PASS: TestCLI (0.00s)
+    --- PASS: TestCLI/default_fonts_embedded (0.00s)
+    --- PASS: TestCLI/options_interspersed (0.00s)
+    --- PASS: TestCLI/literal_hyphen_with_terminator (0.00s)
+    --- PASS: TestCLI/transforms (0.00s)
+    --- PASS: TestCLI/normalization (0.00s)
+    --- PASS: TestCLI/legacy_octal_width (0.00s)
+    --- PASS: TestCLI/hexadecimal_width (0.00s)
+=== RUN   TestEmbeddedFontFromAnotherWorkingDirectory
+--- PASS: TestEmbeddedFontFromAnotherWorkingDirectory (0.00s)
+PASS
+ok  	hardika.figlet	0.036s
+=== RUN   TestLoadCases
+--- PASS: TestLoadCases (0.00s)
+=== RUN   TestScore
+=== RUN   TestScore/nothing
+=== RUN   TestScore/build_only
+=== RUN   TestScore/perfect
+=== RUN   TestScore/python_present
+--- PASS: TestScore (0.00s)
+    --- PASS: TestScore/nothing (0.00s)
+    --- PASS: TestScore/build_only (0.00s)
+    --- PASS: TestScore/perfect (0.00s)
+    --- PASS: TestScore/python_present (0.00s)
+=== RUN   TestPythonInspection
+--- PASS: TestPythonInspection (0.00s)
+=== RUN   TestRunCase
+--- PASS: TestRunCase (0.03s)
+=== RUN   TestCompileAndReadReward
+--- PASS: TestCompileAndReadReward (0.11s)
+PASS
+ok  	command-line-arguments	0.154s
