@@ -53,7 +53,7 @@ Running the twin on the page's hidden base64 string `Z28gdG91Y2ggZ3Jhc3M=` rende
 
 ---
 
-## 📝 Step 8: Two Honest Lines
+## 📝 Hand in Files
 
 > 1. **Smushing rule:**  
 >    *Rule 5 (Big-X slash smushing where `/ + \ -> |` and `\ + / -> Y`) and right-to-left layout universal smushing, where the dominant foreground character depends on the user's input text entry order rather than physical screen coordinates.*

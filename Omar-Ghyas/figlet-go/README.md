@@ -52,10 +52,27 @@ The task was evaluated across three agents inside the Harbor test environment:
 
 ---
 
-## 5. Lessons Learned
 
-- **Rule 3 (Hierarchy Smushing)**: Caused the AI agent the most difficulty due to the 6-tier character class dominance hierarchy (`|` < `/\` < `[]` < `{}` < `()` < `<>`) and its interaction with lowline smushing, bidirectional text direction, and hardblank boundaries.
-- **`alpine/git` Entrypoint Collision**: The base image `alpine/git:2.47.2` hardcodes `ENTRYPOINT ["git"]`, which trapped setup commands by prepending `git` to shell invocations (resulting in `git: 'sh' is not a git command`) unless explicitly overridden with `--entrypoint /bin/sh`.
+## 5. Reflections
+
+1. **Smushing Rule Difficulty — Rule 3 (Hierarchy Smushing)**
+
+   Rule 3 caused the agent the most difficulty because it required implementing the six-tier character class dominance hierarchy:
+
+   `|` < `/\` < `[]` < `{}` < `()` < `<>`
+
+   The main challenge was correctly handling character-class precedence and its interactions with lowline smushing, bidirectional text direction, and hardblank boundaries.
+
+2. **Docker Setup Trap — `alpine/git` Entrypoint Collision**
+
+   The base image `alpine/git:2.47.2` defines `ENTRYPOINT ["git"]`. This caused shell commands to be interpreted as Git subcommands, resulting in the error:
+
+   `git: 'sh' is not a git command`
+
+   The issue was resolved by explicitly overriding the image entrypoint when launching the container:
+
+   `--entrypoint /bin/sh`
+
 
 ---
 
