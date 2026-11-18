@@ -1,0 +1,123 @@
+{
+    "id": "cf3af123-1970-45c9-8092-d01cb1bd7fcc",
+    "task_name": "mukul_ethara/figlet-go",
+    "trial_name": "figlet-go__oNuRxas",
+    "trial_uri": "file:///C:/Users/MukulBhardwaj/Desktop/task2/jobs/2026-11-17__12-27-20/figlet-go__oNuRxas",
+    "task_id": {
+        "path": "figlet-go"
+    },
+    "source": null,
+    "task_checksum": "e356a661061a029ae37e9c3d113111e2ebe2e4eec2844e9a3383bb60aca78edf",
+    "config": {
+        "task": {
+            "path": "figlet-go",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "figlet-go__oNuRxas",
+        "trials_dir": "jobs\\2026-11-17__12-27-20",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "nop",
+            "import_path": null,
+            "model_name": null,
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "76bb9821-2139-46ae-8058-94cfb9d167f1",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "nop",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0,
+            "build": 0,
+            "no_python": 0,
+            "behaviour": 0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-11-17T06:57:22.021998Z",
+    "finished_at": "2026-11-17T06:57:45.745279Z",
+    "environment_setup": {
+        "started_at": "2026-11-17T06:57:22.322769Z",
+        "finished_at": "2026-11-17T06:57:31.498911Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-11-17T06:57:31.498911Z",
+        "finished_at": "2026-11-17T06:57:31.499911Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-11-17T06:57:31.499911Z",
+        "finished_at": "2026-11-17T06:57:31.500908Z"
+    },
+    "verifier": {
+        "started_at": "2026-11-17T06:57:33.895790Z",
+        "finished_at": "2026-11-17T06:57:41.573485Z"
+    },
+    "step_results": null
+}
