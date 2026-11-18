@@ -1,0 +1,19 @@
+version = "1.0"
+
+[metadata]
+author_name = "Prashant Kumar"
+difficulty = "hard"
+category = "porting"
+tags = ["go", "figlet", "pyfiglet", "port", "docker"]
+description = "Port pyfiglet's FIGlet renderer to Go, byte for byte."
+
+[agent]
+user = "player"
+timeout_sec = 3600.0
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900.0
+
+[verifier]
+timeout_sec = 900.0
