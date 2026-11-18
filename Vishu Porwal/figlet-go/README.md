@@ -137,7 +137,3 @@ harbor run -p ".\Vishu Porwal\figlet-go" -a nop
 
 - **Cheat Run:**
   ![Cheat Run](screenshot/Cheat.png)
-
-### Delivery Status
-- GitHub repository push and assignment portal second unlock are recorded as pending manual verification.
-- Secret plaintext is not reproduced in this README.
