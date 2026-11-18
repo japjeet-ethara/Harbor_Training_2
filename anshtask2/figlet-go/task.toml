@@ -1,0 +1,23 @@
+version = "1.0"
+
+[task]
+name = "my-org/figlet-go"
+
+[metadata]
+author_name = "Your Name"
+category = "programming"
+tags = ["porting", "go", "python", "figlet", "text-rendering"]
+
+[agent]
+user = "player"
+timeout_sec = 3600.0
+
+[environment]
+network_mode = "public"     # Harbor 0.25 refuses "no-network" on local Docker; real tasks lock this on a cloud runner
+build_timeout_sec = 900.0
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240
+
+[verifier]
+timeout_sec = 900.0         # environment_mode left at default (shared); harbor lint warns "shared-verifier", expected
