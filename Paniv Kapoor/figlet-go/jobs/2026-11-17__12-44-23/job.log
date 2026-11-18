@@ -1,0 +1,7 @@
+Agent 'oracle' does not declare an options_model; leftover kwargs are ignored
+Skipping image OS validation for hb__2e433feec83037eab6fb64472d9c0c83: docker inspect returned 1
+Collecting main service artifacts
+Skipping image OS validation for hb__b911fdcb178d1f16555cc230021cbdc9: docker inspect returned 1
+Trial figlet-go__iKARvxQ failed: No reward file found at jobs\2026-11-17__12-44-23\figlet-go__iKARvxQ\verifier\reward.txt or jobs\2026-11-17__12-44-23\figlet-go__iKARvxQ\verifier\reward.json
+Exception RewardFileNotFoundError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
