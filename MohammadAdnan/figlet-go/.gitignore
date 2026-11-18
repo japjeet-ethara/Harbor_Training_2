@@ -1,0 +1,32 @@
+# Git
+.git/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Secrets
+.env
+
+# Harbor run leftovers
+jobs/
+trials/
+dist.tar.gz
+
+# Built binaries and scratch output
+/figlet
+*.exe
+/tmp/
+*.log
