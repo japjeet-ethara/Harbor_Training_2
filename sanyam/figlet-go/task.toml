@@ -1,0 +1,41 @@
+schema_version = "1.4"
+artifacts = []
+
+[task]
+name = "sanyam/figlet-go"
+version = "1.0.0"
+description = "Port pyfiglet's FIGlet renderer to a Go command-line program with byte-identical output"
+keywords = ["go", "python", "port", "figlet", "text-rendering"]
+
+[[task.authors]]
+name = "Sanyam Sehrawat"
+
+[metadata]
+category = "programming"
+difficulty = "hard"
+upstream_repo = "https://github.com/pwaller/pyfiglet"
+upstream_commit = "255827efbc09d662875dad50fa0edc1e1263bf45"
+upstream_version = "1.0.4"
+upstream_licence = "MIT"
+
+[verifier]
+timeout_sec = 900.0
+# Shared: tests/ is copied in after the agent has finished, so the agent never sees it.
+environment_mode = "shared"
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 3600.0
+user = "player"
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900.0
+os = "linux"
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]
