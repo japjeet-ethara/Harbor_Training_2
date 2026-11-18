@@ -1,0 +1,65 @@
+# 1. Generate visible.jsonl and hidden.jsonl cleanly
+@'
+import io, json, os, random, sys
+from contextlib import redirect_stdout
+
+sys.path.insert(0, os.path.abspath(os.path.join("..", "pyfiglet")))
+import pyfiglet
+
+FONTS = ['standard', 'slant', 'small', 'big', 'mini', 'banner', 'shadow', 'script']
+WIDTHS = [10, 20, 40, 60, 80, 120]
+JUSTIFIES = ['auto', 'left', 'center', 'right']
+DIRECTIONS = ['auto', 'left-to-right', 'right-to-left']
+
+TRICKY = [
+    '||', '_/', '|/', '[{', '[]', '()', '{}', '/\\', '\\/', '><',
+    '|_|', '///\\\\\\', '___', '[({})]', '<><>', '/|\\_[]{}()<>',
+    'hello  world', '  leading and trailing  ',
+    'The quick brown fox jumps over the lazy dog 1234567890!',
+    'Supercalifragilisticexpialidocious',
+    'A very long sentence that definitely needs to wrap across multiple lines in narrow widths!',
+    'café résumé naïve über straße niño',
+    'Hello \u2603 \u2764 unknown', 'a\nb\nc', '   ', 'W M W M W',
+    '1 + 2 = 3; (a * b) / c [0]', '---===***===---', 'H e l l o', '~`!@#$%^&*()_+-=',
+]
+NORMAL = ['hello', 'world', 'FIGlet', 'Go', 'Harbor', 'test', 'code', 'Testing 123', 'Docker', 'Alpine', 'Linux', 'Terminal']
+
+def run_pyfiglet(args):
+    buf = io.StringIO()
+    old = sys.argv
+    sys.argv = ['pyfiglet'] + args
+    try:
+        with redirect_stdout(buf):
+            try: pyfiglet.main()
+            except SystemExit: pass
+    finally:
+        sys.argv = old
+    return buf.getvalue()
+
+def make_case(rng):
+    args = ['-f', rng.choice(FONTS), '-w', str(rng.choice(WIDTHS + [10, 20, 40]))]
+    j = rng.choice(JUSTIFIES)
+    if j != 'auto' or rng.random() < 0.5: args.extend(['-j', j])
+    d = rng.choice(DIRECTIONS + ['right-to-left'])
+    if d != 'auto' or rng.random() < 0.5: args.extend(['-D', d])
+    for flag in ['-r', '-F', '-s', '-n']:
+        if rng.random() < 0.25: args.append(flag)
+    text = rng.choice(TRICKY) if rng.random() < 0.65 else ' '.join(rng.choice(NORMAL) for _ in range(rng.randint(1, 5)))
+    args.append(text)
+    return {'args': args, 'out': run_pyfiglet(args)}
+
+rng = random.Random(7)
+os.makedirs('tests/data', exist_ok=True)
+for fn in ['visible.jsonl', 'hidden.jsonl']:
+    p = os.path.join('tests/data', fn)
+    with open(p, 'w', encoding='utf-8', newline='\n') as f:
+        for _ in range(2000): f.write(json.dumps(make_case(rng), ensure_ascii=False) + '\n')
+    print(f'Done {p}')
+'@ | python -
+
+# 2. Verify both files exist and have 2000 lines
+Get-ChildItem tests\data\*.jsonl | ForEach-Object { "$($_.Name): $((Get-Content $_).Count) lines" }
+
+# 3. Re-run oracle with hidden.jsonl now present!
+$harborPy = Get-ChildItem "$env:APPDATA\uv\tools\harbor" -Recurse -Filter "python.exe" | Select-Object -First 1 -ExpandProperty FullName
+& $harborPy -c "from harbor.cli.main import app; app()" run -p . -a oracle
