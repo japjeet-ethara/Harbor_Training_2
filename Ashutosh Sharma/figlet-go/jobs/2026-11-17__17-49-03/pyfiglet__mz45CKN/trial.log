@@ -1,0 +1,3 @@
+Skipping image OS validation for hb__c5edd308b7eb00db8a70e9bedd0d09bc: docker inspect returned 1
+Collecting main service artifacts
+Trial pyfiglet__mz45CKN failed: No reward file found at jobs\2026-11-17__17-49-03\pyfiglet__mz45CKN\verifier\reward.txt or jobs\2026-11-17__17-49-03\pyfiglet__mz45CKN\verifier\reward.json
