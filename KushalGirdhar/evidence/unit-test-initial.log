@@ -1,0 +1,69 @@
+uid=1000(player) gid=1000(player) groups=1000(player)
+=== RUN   TestSmushingRules
+=== RUN   TestSmushingRules/equal
+=== RUN   TestSmushingRules/lowline
+=== RUN   TestSmushingRules/hierarchy
+=== RUN   TestSmushingRules/pair
+=== RUN   TestSmushingRules/slash_backslash
+=== RUN   TestSmushingRules/backslash_slash
+=== RUN   TestSmushingRules/angles
+=== RUN   TestSmushingRules/opposite_angles
+=== RUN   TestSmushingRules/hardblank
+=== RUN   TestSmushingRules/hardblank_excluded
+=== RUN   TestSmushingRules/kerning_spaces
+=== RUN   TestSmushingRules/kerning_collision
+=== RUN   TestSmushingRules/universal
+=== RUN   TestSmushingRules/universal_RTL
+=== RUN   TestSmushingRules/universal_hardblank
+--- PASS: TestSmushingRules (0.00s)
+    --- PASS: TestSmushingRules/equal (0.00s)
+    --- PASS: TestSmushingRules/lowline (0.00s)
+    --- PASS: TestSmushingRules/hierarchy (0.00s)
+    --- PASS: TestSmushingRules/pair (0.00s)
+    --- PASS: TestSmushingRules/slash_backslash (0.00s)
+    --- PASS: TestSmushingRules/backslash_slash (0.00s)
+    --- PASS: TestSmushingRules/angles (0.00s)
+    --- PASS: TestSmushingRules/opposite_angles (0.00s)
+    --- PASS: TestSmushingRules/hardblank (0.00s)
+    --- PASS: TestSmushingRules/hardblank_excluded (0.00s)
+    --- PASS: TestSmushingRules/kerning_spaces (0.00s)
+    --- PASS: TestSmushingRules/kerning_collision (0.00s)
+    --- PASS: TestSmushingRules/universal (0.00s)
+    --- PASS: TestSmushingRules/universal_RTL (0.00s)
+    --- PASS: TestSmushingRules/universal_hardblank (0.00s)
+=== RUN   TestFontParser
+--- PASS: TestFontParser (0.00s)
+=== RUN   TestCLI
+--- PASS: TestCLI (0.00s)
+=== RUN   TestEmbeddedFontsFromAway
+=== RUN   TestEmbeddedFontsFromAway/standard
+=== RUN   TestEmbeddedFontsFromAway/slant
+=== RUN   TestEmbeddedFontsFromAway/small
+=== RUN   TestEmbeddedFontsFromAway/big
+=== RUN   TestEmbeddedFontsFromAway/mini
+=== RUN   TestEmbeddedFontsFromAway/banner
+=== RUN   TestEmbeddedFontsFromAway/shadow
+=== RUN   TestEmbeddedFontsFromAway/script
+--- PASS: TestEmbeddedFontsFromAway (0.02s)
+    --- PASS: TestEmbeddedFontsFromAway/standard (0.01s)
+    --- PASS: TestEmbeddedFontsFromAway/slant (0.00s)
+    --- PASS: TestEmbeddedFontsFromAway/small (0.00s)
+    --- PASS: TestEmbeddedFontsFromAway/big (0.00s)
+    --- PASS: TestEmbeddedFontsFromAway/mini (0.00s)
+    --- PASS: TestEmbeddedFontsFromAway/banner (0.00s)
+    --- PASS: TestEmbeddedFontsFromAway/shadow (0.00s)
+    --- PASS: TestEmbeddedFontsFromAway/script (0.00s)
+PASS
+ok  	figlet	0.023s
+=== RUN   TestWeighted
+--- PASS: TestWeighted (0.00s)
+=== RUN   TestEvaluate
+    grade_test.go:40: evaluate = 0, 0, 0, 0, decode case 1: invalid character '\n' in string literal
+--- FAIL: TestEvaluate (0.00s)
+=== RUN   TestRejectsMalformedCorpus
+--- PASS: TestRejectsMalformedCorpus (0.00s)
+=== RUN   TestNoPython
+--- PASS: TestNoPython (0.00s)
+FAIL
+FAIL	command-line-arguments	0.008s
+FAIL

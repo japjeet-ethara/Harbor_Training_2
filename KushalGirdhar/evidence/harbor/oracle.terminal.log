@@ -1,0 +1,42 @@
++ uvx --from harbor==0.25.0 harbor run -p /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go -a oracle -o /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/evidence/harbor --job-name oracle --quiet
+  1/1 Behaviour: 1.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:00:50 0:00:00
+
+adhoc • oracle
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┓
+┃ Trials ┃ Exceptions ┃ Behaviour ┃ Build ┃ No_Python ┃ Reward ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━┩
+│      1 │          0 │     1.000 │ 1.000 │     1.000 │  1.000 │
+└────────┴────────────┴───────────┴───────┴───────────┴────────┘
+
+┏━━━━━━━━┳━━━━━━━┓
+┃ Reward ┃ Count ┃
+┡━━━━━━━━╇━━━━━━━┩
+│ 1      │     1 │
+│ 1      │     1 │
+│ 1      │     1 │
+│ 1      │     1 │
+└────────┴───────┘
+
+Job Info
+Total runtime: 51s
+Results written to 
+/mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/evidence/harbor/ora
+cle/result.json
+Inspect results by running `harbor view 
+/mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/evidence/harbor`
+Share results by running `harbor upload 
+/mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/evidence/harbor/ora
+cle`
+
+
+oracle reward.json
+{"reward":1,"build":1,"no_python":1,"behaviour":1}
+build=1 no_python=1 exact=2000/2000 timeouts=0 process_errors=0 reward=1
+*** SECRET UNLOCKED ***
+                ____       __                            _ __      __ 
+ _      _____  / / /  ____/ /___  ____  ___       ____  (_) /___  / /_
+| | /| / / _ \/ / /  / __  / __ \/ __ \/ _ \     / __ \/ / / __ \/ __/
+| |/ |/ /  __/ / /  / /_/ / /_/ / / / /  __/    / /_/ / / / /_/ / /_  
+|__/|__/\___/_/_/   \__,_/\____/_/ /_/\___( )  / .___/_/_/\____/\__/  
+                                          |/  /_/                     
+

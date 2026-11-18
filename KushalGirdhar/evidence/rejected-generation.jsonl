@@ -1,0 +1,458 @@
+{"split":"visible","args":["-w","10","-s","-n","-f","slant","-r","-D","auto","-j","center","poolλtcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-F","-w","10","-j","center","-D","auto","-f","shadow","runner drops packets at ingress","trim queue via curl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-F","-w","10","-j","center","-D","auto","-f","shadow","worker recovers state under load","close socket via git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-F","-w","10","-j","center","-D","auto","-f","shadow","worker up from backup","cap retries via tar"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-F","-w","10","-j","center","-D","auto","-f","shadow","router times out on hot path","drop stale jobs via jq"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-F","-w","10","-j","center","-D","auto","-f","shadow","IPv6 drain during deploy","trim queue via rg"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-F","-w","10","-j","center","-D","auto","-f","shadow","index offline on mesh","roll back via tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-F","-w","10","-j","center","-D","auto","-f","shadow","VPN ready after restart","verify lease via netcat"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","script","-w","10","-D","auto","-j","auto","-n","-r","tcpdump\n\nresolver down\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","script","-D","right-to-left","-w","10","nmap 🛰 BGP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-f","standard","-D","auto","-j","left","build  down  sqlite"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-f","standard","-D","auto","-j","left","HTTP  times out  netcat"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-f","standard","-D","auto","-j","left","proxy  down  tar"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-f","standard","-D","auto","-j","left","pod  drain  tcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","script","-w","10","-j","auto","-D","left-to-right","DNS rotates keys on mesh","merge release via go"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-j","left","-w","10","-D","right-to-left","gateway  drops packets  dig"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-f","standard","-r","-w","10","ping déploiement router"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-f","standard","-r","-w","10","tar résumé build"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-f","standard","-r","-w","10","sqlite déploiement queue"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-f","standard","-r","-w","10","sqlite déploiement worker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-f","standard","-r","-w","10","tmux déploiement IPv6"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-f","standard","-r","-w","10","strace cañón NAT"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-f","standard","-r","-w","10","dig mañana index"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-f","standard","-r","-w","10","bash déploiement DNS"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-f","standard","-r","-w","10","redis mañana HTTP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-j","auto","-F","-f","big","-w","10","-D","left-to-right","strace TLS"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-j","auto","-F","-f","big","-w","10","-D","left-to-right","move shards at edge"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-j","auto","-F","-f","big","-w","10","-D","left-to-right","awk resolver"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-f","script","-D","auto","-w","10","tcpdump déploiement TLS"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-f","script","-D","auto","-w","10","git résumé HTTP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-f","script","-D","auto","-w","10","go résumé edge"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-f","script","-D","auto","-w","10","make café proxy"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-f","script","-D","auto","-w","10","awk déploiement BGP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-F","-f","slant","-D","right-to-left","-j","center","-r","-w","10","IPv6雪awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-F","-f","slant","-D","right-to-left","-j","center","-r","-w","10","dig 한 DNS"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-D","left-to-right","-w","10","-s","-f","shadow","gateway한openssl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","right","-D","right-to-left","-w","10","-f","shadow","-s","gateway <|>\\ nginx"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-f","big","-j","left","-D","right-to-left","trim queue from backup"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-f","big","-j","left","-D","right-to-left","build switches routes"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-f","big","-j","left","-D","right-to-left","cap retries from backup"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","right","-f","script","-D","left-to-right","-n","-w","10","VPN recovers state before cutover","fix retry via openssl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","right","-f","script","-D","left-to-right","-n","-w","10","UDP times out on mesh","split logs via iperf"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","right","-f","script","-D","left-to-right","-n","-w","10","runner stable during deploy","trim queue via docker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-w","10","-j","left","-r","-D","left-to-right","VPN down during deploy","merge release via redis"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-w","10","-j","left","-r","-D","left-to-right","pod offline after restart","merge release via dig"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-w","10","-j","left","-r","-D","left-to-right","TLS slow before cutover","merge release via netcat"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-w","10","-j","left","-r","-D","left-to-right","VPN offline at edge","flush cache via dig"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-w","10","-j","left","-r","-D","left-to-right","gateway offline on mesh","drop stale jobs via dig"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-D","right-to-left","-w","10","-n","-j","center","-f","big","BGP retry before cutover","merge release via redis"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","slant","-D","left-to-right","-w","10","NAT stable during deploy","restore route via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","slant","-D","left-to-right","-w","10","replica retry at noon","warm standby via tar"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","slant","-D","left-to-right","-w","10","DNS drain on hot path","flush cache via redis"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","slant","-D","left-to-right","-w","10","VPN rotates keys from backup","restore route via jq"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","slant","-D","left-to-right","-w","10","build offline from backup","trim queue via docker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","slant","-D","left-to-right","-w","10","cache slow on hot path","drop stale jobs via sqlite"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","slant","-D","left-to-right","-w","10","API drops packets from backup","add health check via bash"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","slant","-D","left-to-right","-w","10","HTTP retry in prod","restore route via redis"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","slant","-D","left-to-right","-w","10","proxy drops packets before cutover","cap retries via tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","slant","-D","left-to-right","-w","10","worker offline at ingress","merge release via bash"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","slant","-D","left-to-right","-w","10","gateway loses sync under load","cap retries via tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","slant","-D","left-to-right","-w","10","cache ready from backup","warm standby via rg"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","right","-D","auto","-f","slant","-s","resolver  times out  netcat"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","right","-D","auto","-f","slant","-s","VPN  up  git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","center","-f","big","-r","-D","auto","gateway  reset  rg"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","center","-f","big","-r","-D","auto","UDP  stable  nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","center","-f","big","-r","-D","auto","resolver  fails open  tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-f","script","-F","-D","right-to-left","-j","right","gateway recovers state under load","trim queue via strace"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-f","script","-F","-D","right-to-left","-j","right","UDP ready on hot path","enable tracing via jq"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-j","left","-f","slant","-D","auto","-w","10","pool  recovers state  tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-r","-w","10","-j","right","-D","left-to-right","-n","-f","slant","\nVPN\nstable"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","left-to-right","-j","left","-f","slant","-s","-w","10","BGP recovers state before cutover","warm standby via jq"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","script","-w","10","-r","-D","right-to-left","-j","left","API down after restart","split logs via nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-f","standard","-n","-j","auto","-w","10","API  slow  go"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-j","auto","-w","10","-F","-D","left-to-right","-f","shadow","-r","-n","NAT <|>\\ rg"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","auto","-D","auto","-s","-n","-w","10","-f","shadow","docker déploiement resolver"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","auto","-D","auto","-s","-n","-w","10","-f","shadow","strace café NAT"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-D","right-to-left","-f","slant","-w","10","sed\n\nVPN stable\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","auto","-f","script","-D","right-to-left","-w","10","index reset from backup","restore route via ssh"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","right","-f","slant","-F","-D","right-to-left","-w","10","worker  restarts cleanly  docker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","right","-f","slant","-F","-D","right-to-left","-w","10","replica  down  tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-f","shadow","-D","right-to-left","pod []{} awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","right","-F","-r","-w","10","-f","big","-D","left-to-right","router rotates keys at edge","trim queue via bash"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-s","-j","auto","-w","10","-D","right-to-left","UDP rejects traffic in prod","enable tracing via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-s","-j","auto","-w","10","-D","right-to-left","edge rotates keys under load","pin image via tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-s","-j","auto","-w","10","-D","right-to-left","pool slow from backup","warm standby via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-s","-j","auto","-w","10","-D","right-to-left","NAT retry at noon","close socket via netcat"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-s","-j","auto","-w","10","-D","right-to-left","API switches routes in prod","pin image via openssl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-s","-j","auto","-w","10","-D","right-to-left","agent times out at noon","sync peers via jq"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-s","-j","auto","-w","10","-D","right-to-left","TLS stable at noon","pin image via curl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","script","-w","10","-j","center","-D","left-to-right","ssh déploiement IPv6"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","script","-w","10","-j","center","-D","left-to-right","sed déploiement agent"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","script","-w","10","-j","center","-D","left-to-right","sqlite Über proxy"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","auto","-f","script","-D","auto","VPN switches routes"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-F","-f","standard","-D","auto","worker []{} nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-F","-f","standard","-D","auto","edge ][_/ tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","auto","-j","auto","-r","-w","10","-f","big","VPNλssh"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","shadow","-j","right","-w","10","-s","-D","left-to-right","gatewaýcurl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-f","standard","-w","10","-D","auto","-r","-j","right","\nNAT\nstable"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-f","standard","-w","10","-D","auto","-r","-j","right","make\n\nUDP rejects traffic\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-w","10","-D","right-to-left","-F","-f","shadow","bash mañana relay"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-w","10","-D","right-to-left","-F","-f","shadow","nmap Straße agent"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-w","10","-s","-j","left","-F","-D","right-to-left","pool >< tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-w","10","-f","standard","BGP times out at noon","rotate cert via jq"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-w","10","-f","standard","resolver slow at ingress","sync peers via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-w","10","-f","standard","cache fails open on mesh","ship patch via strace"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-w","10","-f","standard","gateway switches routes before cutover","enable tracing via nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-w","10","-f","standard","cache times out from backup","add health check via tcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","left-to-right","-j","auto","-f","big","-w","10","curl résumé agent"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","right","-w","10","-F","-f","shadow","-D","right-to-left","TLŚtmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-r","-f","big","-D","right-to-left","tcpdump cañón index"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-r","-f","big","-D","right-to-left","tar größer HTTP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-r","-f","big","-D","right-to-left","make café HTTP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-r","-f","big","-D","right-to-left","go mañana cache"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-r","-f","big","-D","right-to-left","jq größer NAT"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-r","-f","big","-D","right-to-left","tmux cañón UDP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-r","-f","big","-D","right-to-left","iperf señal TCP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","center","-s","-f","shadow","-D","left-to-right","IPv6 drain at noon","merge release via docker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","center","-s","-f","shadow","-D","left-to-right","queue rotates keys on mesh","merge release via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","center","-s","-f","shadow","-D","left-to-right","gateway drops packets at edge","rotate cert via git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-F","-D","left-to-right","-f","standard","-j","auto","pin image on mesh"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","big","-D","right-to-left","-j","center","-s","-w","10","-F","queue  down  git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","big","-D","right-to-left","-j","center","-s","-w","10","-F","proxy  switches routes  go"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","big","-D","right-to-left","-j","center","-s","-w","10","-F","UDP  retry  make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","big","-D","right-to-left","-j","center","-s","-w","10","-F","NAT  fails open  tar"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","right","-f","standard","-F","-w","10","-D","left-to-right","TCP stable at edge","pin image via awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","slant","-D","left-to-right","-w","10","gateway  restarts cleanly  openssl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-D","auto","-f","shadow","-j","left","-w","10","-F","ssh résumé HTTP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-D","auto","-f","shadow","-j","left","-w","10","-F","openssl résumé queue"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-D","auto","-f","shadow","-j","left","-w","10","-F","nginx déploiement queue"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-D","auto","-f","shadow","-j","left","-w","10","-F","curl mañana UDP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-D","auto","-f","shadow","-j","left","-w","10","-F","tcpdump Über router"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-D","auto","-f","shadow","-j","left","-w","10","-F","nginx Straße VPN"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-j","auto","-s","-w","10","-D","left-to-right","-F","awk\n\nIPv6 times out\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","auto","-w","10","-n","-f","big","-j","right","resolver times out under load","flush cache via netcat"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-D","auto","-w","10","-j","center","API down"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","shadow","-w","10","-F","-s","-j","auto","-D","auto","build recovers state in prod","restore route via tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-n","-D","left-to-right","-f","big","tmux größer queue"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","shadow","-w","10","-D","right-to-left","-j","left","relay雪awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","shadow","-w","10","-D","right-to-left","-j","left","proxy🧪tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","shadow","-w","10","-D","right-to-left","-j","left","API雪nginx"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","shadow","-w","10","-D","right-to-left","-j","left","make ́ worker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","shadow","-w","10","-D","right-to-left","-j","left","nmap 🛰 pool"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-f","script","-D","left-to-right","pod times out on hot path","cap retries via git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-f","script","-D","left-to-right","IPv6 retry under load","warm standby via sqlite"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-f","big","-w","10","-j","right","-D","left-to-right","HTTP  reset  netcat"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-F","-f","shadow","-j","auto","-w","10","-D","right-to-left","gateway  loses sync  rsync"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-F","-f","shadow","-j","auto","-w","10","-D","right-to-left","agent  rejects traffic  nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-F","-f","shadow","-j","auto","-w","10","-D","right-to-left","replica  rejects traffic  tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-F","-f","shadow","-j","auto","-w","10","-D","right-to-left","build  switches routes  sqlite"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-F","-f","shadow","-j","auto","-w","10","-D","right-to-left","proxy  stable  nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-j","auto","-n","-D","auto","-F","-w","10","index down before cutover","rotate cert via git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-j","auto","-n","-D","auto","-F","-w","10","IPv6 rotates keys from backup","cap retries via sqlite"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-D","auto","-f","standard","rg λ gateway"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-j","left","-D","auto","-f","standard","index🛰tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","auto","-w","10","-F","-s","-f","big","-D","auto","tar\n\nagent down\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","script","-F","-D","left-to-right","-w","10","-j","auto","IPv6 >< nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-r","-f","shadow","-w","10","-D","left-to-right","-j","right","VPN offline\nsplit logs"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-D","auto","-w","10","-j","right","-f","standard","move shards on hot path"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-D","auto","-w","10","-j","right","-f","standard","worker drops packets"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-w","10","-j","left","-r","-f","standard","docker 🛰 worker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-w","10","-j","left","-r","-f","standard","gateway한strace"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-r","-D","auto","-j","right","-w","10","-f","shadow","\nrouter\ndown"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-r","-D","auto","-j","right","-w","10","-f","shadow","openssl\n\npod down\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-r","-D","auto","-j","right","-w","10","-f","shadow","\npod\nswitches routes"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-r","-D","auto","-j","right","-w","10","-f","shadow","\nreplica\ntimes out"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-r","-D","auto","-j","right","-w","10","-f","shadow","tmux\n\nagent down\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-r","-D","auto","-j","right","-w","10","-f","shadow","awk\n\npool restarts cleanly\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-r","-D","auto","-j","right","-w","10","-f","shadow","awk\n\nrelay reset\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-r","-D","auto","-j","right","-w","10","-f","shadow","pod switches routes\nship patch"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","left-to-right","-f","big","-n","-j","auto","-r","-w","10","resolver down on hot path","rotate cert via bash"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","left-to-right","-f","big","-n","-j","auto","-r","-w","10","BGP offline from backup","drop stale jobs via iperf"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","left-to-right","-f","big","-n","-j","auto","-r","-w","10","queue drain on mesh","sync peers via nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","left-to-right","-f","big","-n","-j","auto","-r","-w","10","edge down after restart","pin image via dig"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","left-to-right","-f","big","-n","-j","auto","-r","-w","10","TCP loses sync on mesh","verify lease via ssh"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","right","-f","script","-D","left-to-right","-w","10","queue >< tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","auto","-f","standard","-w","10","-D","left-to-right","nmap cañón API"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-n","-w","10","-f","big","-D","left-to-right","-r","sync peers from backup"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","left-to-right","-j","left","-f","standard","-F","-w","10","edge <|>\\ awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","big","-D","right-to-left","-w","10","pod {[()]} awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-F","-w","10","-j","center","-f","standard","-D","left-to-right","\nNAT\nrestarts cleanly"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-F","-w","10","-j","center","-f","standard","-D","left-to-right","make\n\nAPI reset\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-F","-w","10","-j","center","-f","standard","-D","left-to-right","cache restarts cleanly\nmerge release"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-F","-w","10","-j","center","-f","standard","-D","left-to-right","DNS drain\nmove shards"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-F","-w","10","-j","center","-f","standard","-D","left-to-right","IPv6 times out\npin image"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","left-to-right","-w","10","-j","center","-f","slant","TLS |_| make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-D","auto","-w","10","-n","-f","slant","-F","worker🛰nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-j","right","-D","left-to-right","-w","10","awk señal TCP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-j","right","-D","left-to-right","-w","10","sqlite größer edge"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-r","-w","10","-j","auto","-D","left-to-right","merge release before cutover"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-r","-w","10","-j","auto","-D","left-to-right","edge switches routes"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","big","-j","right","-w","10","-D","auto","relay  drops packets  nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","big","-j","right","-w","10","-D","auto","TLS  restarts cleanly  sed"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","big","-j","right","-w","10","-D","auto","runner  slow  openssl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","big","-j","right","-w","10","-D","auto","DNS  down  openssl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","big","-j","right","-w","10","-D","auto","NAT  retry  bash"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-w","10","-f","script","-D","right-to-left","VPN |_| rg"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-w","10","-f","script","-D","right-to-left","VPN ][_/ dig"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-w","10","-f","script","-D","right-to-left","API |_| nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-w","10","-f","script","-D","right-to-left","gateway {[()]} tcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-w","10","-f","script","-D","right-to-left","relay {[()]} tcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","auto","-D","right-to-left","-f","standard","-w","10","make 🧪 proxy"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-r","-f","shadow","-D","left-to-right","-j","auto","-s","-w","10","jq\n\nreplica switches routes\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-f","shadow","-D","auto","-F","-r","-j","auto","worker  up  sed"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-f","shadow","-D","auto","-F","-r","-j","auto","TCP  times out  openssl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-f","slant","-D","right-to-left","-w","10","tar größer TCP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-f","slant","-D","right-to-left","-w","10","make café router"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-D","right-to-left","-w","10","-j","right","DNSλawk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-n","-f","script","-w","10","-D","left-to-right","-F","API  offline  tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-n","-f","script","-w","10","-D","left-to-right","-F","VPN  stable  jq"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-n","-f","script","-w","10","-D","left-to-right","-F","UDP  up  git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","left","-n","-f","script","-w","10","-D","left-to-right","-F","router  rejects traffic  tcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","big","-w","10","-D","auto","-j","left","-s","iperf déploiement HTTP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","big","-w","10","-D","auto","-j","left","-s","tmux cañón runner"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","big","-w","10","-D","auto","-j","left","-s","dig résumé VPN"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-w","10","-D","right-to-left","-j","auto","-f","slant","resolver |_| tcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-r","-w","10","-D","auto","-j","center","jq größer queue"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","slant","-r","-w","10","-D","auto","-j","center","sed résumé BGP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","auto","-j","auto","-f","script","-w","10","index reset on mesh","warm standby via openssl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-F","-f","big","-w","10","-j","auto","index reset on hot path","move shards via sed"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-F","-f","big","-w","10","-j","auto","IPv6 rejects traffic before cutover","warm standby via iperf"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-F","-f","big","-w","10","-j","auto","TCP reset during deploy","cap retries via iperf"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-F","-f","big","-w","10","-j","auto","cache drops packets on mesh","cap retries via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-F","-f","big","-w","10","-j","auto","index slow during deploy","trim queue via nginx"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-F","-f","big","-w","10","-j","auto","pod up at edge","warm standby via rsync"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-F","-f","big","-w","10","-j","auto","IPv6 down before cutover","cap retries via sqlite"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","auto","-w","10","-F","-s","-r","-j","auto","-f","slant","gateway  switches routes  rsync"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","auto","-w","10","-F","-s","-r","-j","auto","-f","slant","worker  ready  rsync"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-F","-D","auto","-w","10","-f","big","-j","auto","cache down"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-n","-w","10","-s","-f","shadow","NAT  switches routes  rg"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-D","right-to-left","-j","center","-n","-w","10","-s","-f","shadow","edge  switches routes  curl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-j","left","-w","10","-D","right-to-left","-f","standard","HTTP switches routes\nadd health check"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","auto","-D","left-to-right","-f","big","-s","-w","10","TLS  down  go"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-n","-w","10","-D","right-to-left","-r","-f","slant","-j","center","redis déploiement worker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-n","-w","10","-D","right-to-left","-r","-f","slant","-j","center","rsync déploiement proxy"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-n","-w","10","-D","right-to-left","-r","-f","slant","-j","center","make déploiement build"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-n","-w","10","-D","right-to-left","-r","-f","slant","-j","center","ping Straße DNS"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-s","-n","-w","10","-D","right-to-left","-r","-f","slant","-j","center","make déploiement edge"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-w","10","-f","big","-F","-j","right","-D","right-to-left","-r","bash déploiement relay"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-w","10","-f","big","-F","-j","right","-D","right-to-left","-r","sqlite déploiement runner"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-n","-w","10","-f","big","-F","-j","right","-D","right-to-left","-r","iperf mañana IPv6"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-D","left-to-right","-j","auto","-w","10","edge down at ingress","split logs via nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-D","left-to-right","-j","auto","-w","10","build times out in prod","add health check via curl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-D","left-to-right","-j","auto","-w","10","edge ready during deploy","sync peers via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-D","left-to-right","-j","auto","-w","10","NAT offline at edge","warm standby via iperf"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","right","-D","auto","-f","script","-s","-w","10","\nUDP\ndrops packets"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-j","left","-D","left-to-right","-w","10","APIλawk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-f","standard","-j","left","-D","left-to-right","-w","10","gateway雪sqlite"],"reason":"glyph width at or above wrap boundary"}
+{"split":"visible","args":["-j","center","-f","big","-w","10","-D","right-to-left","proxy🛰tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","right","-w","10","-f","standard","-D","left-to-right","API  fails open  openssl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","script","-D","auto","-j","left","-w","10","iperf mañana VPN"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","script","-D","auto","-j","left","-w","10","sqlite Über replica"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","right-to-left","-f","big","-n","-j","auto","-w","10","TCP slow\nverify lease"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","slant","-D","left-to-right","-w","10","-j","center","VPN  switches routes  bash"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","auto","-f","script","-j","center","-w","10","-n","jq mañana NAT"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","shadow","-j","auto","-D","right-to-left","-w","10","API  rotates keys  nginx"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","shadow","-j","auto","-D","right-to-left","-w","10","relay  stable  nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","shadow","-j","auto","-D","right-to-left","-w","10","gateway  ready  ssh"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-r","-w","10","-j","right","-D","right-to-left","tmux\n\nNAT offline\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-r","-w","10","-j","right","-D","right-to-left","DNS drain\npin image"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","shadow","-D","auto","-w","10","-F","-s","-j","auto","-r","jq déploiement NAT"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","center","-D","auto","-f","big","-s","-n","-r","flush cache on mesh"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","center","-D","auto","-f","big","-s","-n","-r","move shards during deploy"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","right","-F","-w","10","-f","script","-D","auto","API雪nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","center","-D","right-to-left","-f","standard","index rejects traffic under load","roll back via awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","script","-D","left-to-right","-w","10","-j","right","runner  rotates keys  nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","left","-w","10","-s","-n","-D","left-to-right","-f","shadow","curl\n\npod down\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","left","-w","10","-s","-n","-D","left-to-right","-f","shadow","worker rotates keys\nsync peers"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","left","-w","10","-f","slant","-F","-D","right-to-left","-r","replica rotates keys before cutover","move shards via rsync"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","slant","-w","10","-j","right","-D","auto","gateway雪git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","right","-F","-w","10","-f","slant","-D","left-to-right","gateway  restarts cleanly  jq"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-r","-D","auto","-w","10","-f","big","-j","auto","-n","edge down after restart","roll back via nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-f","slant","-D","auto","-j","center","gateway <|>\\ go"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-f","slant","-D","auto","-j","center","gateway {[()]} dig"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-f","slant","-D","auto","-j","center","NAT \\/ sqlite"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-f","big","-D","left-to-right","-j","right","relay times out from backup","split logs via docker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","left-to-right","-w","10","-f","standard","-j","auto","tcpdump\n\ngateway switches routes\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","left-to-right","-w","10","-f","standard","-j","auto","API rotates keys\nrestore route"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-D","right-to-left","-s","-w","10","-j","left","index retry before cutover","trim queue via sqlite"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","left","-w","10","-D","left-to-right","-f","big","TCP🛰nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","left","-w","10","-D","left-to-right","-f","big","awk λ runner"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","left","-f","standard","-D","left-to-right","tmux señal queue"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","left","-f","standard","-D","left-to-right","tcpdump café BGP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","left","-f","standard","-D","left-to-right","jq mañana pool"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","left","-f","standard","-D","left-to-right","redis mañana relay"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","left","-f","standard","-D","left-to-right","bash déploiement TLS"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","left","-f","standard","-D","left-to-right","nmap Über relay"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","slant","-D","right-to-left","-w","10","-s","-j","right","queue up on hot path","close socket via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","shadow","-w","10","-n","-j","left","-D","right-to-left","-s","pool []{} awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","shadow","-w","10","-n","-j","left","-D","right-to-left","-s","NAT []{} openssl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","right","-D","right-to-left","-f","shadow","IPv6 rejects traffic under load","ship patch via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","right","-D","right-to-left","-f","shadow","HTTP restarts cleanly during deploy","enable tracing via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","right","-D","right-to-left","-f","shadow","BGP slow on mesh","move shards via strace"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","right","-D","right-to-left","-f","shadow","NAT recovers state at ingress","split logs via sqlite"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-n","-D","auto","-j","auto","-w","10","redis señal gateway"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-s","-n","-j","center","-D","left-to-right","-f","script","jq\n\nBGP times out\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","auto","-w","10","-j","left","-r","-f","big","tcpdump\n\nagent loses sync\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","left-to-right","-f","standard","-n","-w","10","-j","right","BGP \\/ make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-F","-f","slant","-w","10","-D","left-to-right","-j","left","pool雪tcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-s","-f","script","-D","auto","-F","-w","10","-r","-j","left","runner fails open at noon","replay journal via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-s","-f","script","-D","auto","-F","-w","10","-r","-j","left","queue ready on mesh","drop stale jobs via rsync"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-s","-f","script","-D","auto","-F","-w","10","-r","-j","left","HTTP restarts cleanly under load","trim queue via go"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","slant","-j","center","-F","-w","10","-D","left-to-right","agent >< tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","slant","-j","center","-F","-w","10","-D","left-to-right","VPN ][_/ make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","center","-D","auto","-f","script","API retry after restart","enable tracing via tcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","center","-D","auto","-f","script","worker up at edge","merge release via redis"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","center","-D","auto","-f","script","replica loses sync at ingress","pin image via tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","center","-D","auto","-f","script","UDP fails open at noon","rotate cert via git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-F","-f","shadow","-D","left-to-right","-j","auto","-w","10","IPv6  ready  tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-F","-f","shadow","-D","left-to-right","-j","auto","-w","10","build  up  make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-F","-f","shadow","-D","left-to-right","-j","auto","-w","10","proxy  offline  tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-F","-f","shadow","-D","left-to-right","-j","auto","-w","10","UDP  switches routes  tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","auto","-D","right-to-left","-w","10","-f","shadow","gateway []{} rsync"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","auto","-j","auto","-w","10","-r","-f","shadow","edge switches routes on mesh","add health check via git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-s","-D","auto","-j","left","-w","10","move shards at noon"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","script","-D","auto","-j","right","-w","10","-r","rg\n\nVPN fails open\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","right","-f","big","-w","10","-D","auto","-s","-r","tmux déploiement replica"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","right","-f","big","-w","10","-D","auto","-s","-r","openssl größer TLS"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","right","-f","big","-w","10","-D","auto","-s","-r","redis résumé relay"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","slant","-w","10","-D","right-to-left","-j","center","ping résumé pool"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","slant","-w","10","-D","right-to-left","-j","center","ping résumé replica"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","slant","-w","10","-D","right-to-left","-j","center","jq mañana IPv6"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","left","-n","-F","-D","left-to-right","-w","10","-f","shadow","move shards before cutover"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","auto","-D","auto","-f","big","-w","10","VPN  slow  docker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","left-to-right","-f","standard","-w","10","-j","center","NAT down after restart","drop stale jobs via nginx"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","left-to-right","-f","standard","-w","10","-j","center","NAT loses sync after restart","verify lease via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-f","slant","-w","10","-D","auto","-F","HTTṔgit"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-f","slant","-w","10","-D","auto","-F","TCP한make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-D","left-to-right","-j","right","-w","10","-s","HTTP  drain  nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","left-to-right","-w","10","-s","-j","right","-f","shadow","HTTP <|>\\ awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-D","right-to-left","-j","left","-r","-w","10","gateway  ready  dig"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-D","right-to-left","-j","left","-r","-w","10","runner  stable  nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-D","right-to-left","-j","left","-r","-w","10","gateway  offline  netcat"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-D","auto","-j","right","-f","standard","VPN  rotates keys  go"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-D","left-to-right","-w","10","-j","left","queue slow on mesh","fix retry via docker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-D","right-to-left","-r","-j","right","-f","slant","API  slow  bash"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-D","right-to-left","-r","-j","right","-f","slant","relay  down  iperf"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","right-to-left","-f","shadow","-j","center","-w","10","awk Straße TCP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-j","left","-w","10","-D","right-to-left","pool loses sync on mesh","pin image via curl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-j","left","-w","10","-D","right-to-left","replica up at edge","warm standby via docker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-j","left","-w","10","-D","right-to-left","replica restarts cleanly from backup","close socket via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-j","left","-w","10","-D","right-to-left","replica recovers state on mesh","merge release via rg"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-j","left","-w","10","-D","right-to-left","runner rejects traffic after restart","cap retries via awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-j","left","-w","10","-D","right-to-left","NAT fails open in prod","close socket via sqlite"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-j","left","-w","10","-D","right-to-left","proxy switches routes before cutover","verify lease via ping"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-j","left","-w","10","-D","right-to-left","HTTP down before cutover","cap retries via bash"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-j","left","-w","10","-D","right-to-left","replica recovers state during deploy","pin image via nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-j","left","-w","10","-D","right-to-left","API restarts cleanly after restart","trim queue via curl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","auto","-w","10","-j","auto","-f","slant","workeŕiperf"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","auto","-w","10","-j","auto","-f","slant","relaýtcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","right-to-left","-r","-j","right","-w","10","-f","shadow","-F","HTTP  loses sync  tcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","auto","-n","-f","standard","-D","auto","-w","10","UDP rejects traffic at edge","trim queue via nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","auto","-n","-f","standard","-D","auto","-w","10","resolver down at ingress","roll back via ping"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","right-to-left","-f","slant","-j","auto","-w","10","nmap déploiement pod"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","left","-D","auto","-w","10","-f","big","API recovers state"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-D","left-to-right","-f","standard","-j","right","nmap λ queue"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-F","-D","right-to-left","-w","10","-j","center","-f","script","tmux Über BGP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-F","-D","right-to-left","-w","10","-j","center","-f","script","openssl résumé index"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-f","shadow","-F","-w","10","-D","left-to-right","\nworker\nreset"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-D","auto","-w","10","-r","-F","-j","left","tar résumé UDP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-D","auto","-w","10","-r","-F","-j","left","openssl résumé TCP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-D","auto","-w","10","-r","-F","-j","left","ssh résumé queue"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-r","-j","auto","-s","-f","big","-D","left-to-right","iperf déploiement router"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-r","-j","auto","-s","-f","big","-D","left-to-right","iperf größer gateway"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-r","-j","auto","-s","-f","big","-D","left-to-right","docker déploiement TCP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-s","-F","-j","center","-D","auto","-f","big","NAT retry before cutover","merge release via nginx"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-s","-F","-j","center","-D","auto","-f","big","VPN rotates keys on hot path","trim queue via go"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-s","-F","-j","center","-D","auto","-f","big","pool recovers state before cutover","move shards via bash"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-s","-F","-j","center","-D","auto","-f","big","cache switches routes under load","roll back via awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-s","-F","-j","center","-D","auto","-f","big","pool down at ingress","close socket via redis"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-s","-F","-j","center","-D","auto","-f","big","VPN rejects traffic in prod","rotate cert via rg"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-s","-F","-j","center","-D","auto","-f","big","API restarts cleanly on mesh","trim queue via nginx"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","right-to-left","-j","center","-w","10","-f","standard","API |_| awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","shadow","-F","-j","center","-D","auto","-s","-w","10","APIλredis"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-w","10","-D","right-to-left","-j","center","move shards after restart"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-w","10","-D","right-to-left","-j","center","tcpdump gateway"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-w","10","-D","right-to-left","-j","center","go NAT"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-n","-w","10","-D","auto","-j","right","TCP loses sync during deploy","ship patch via tcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-n","-w","10","-D","auto","-j","right","gateway down under load","ship patch via netcat"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-n","-w","10","-D","auto","-j","right","edge down under load","move shards via bash"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-n","-w","10","-D","auto","-j","right","edge slow at edge","cap retries via awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-n","-w","10","-D","auto","-j","right","queue fails open from backup","flush cache via iperf"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","right-to-left","-j","center","-f","slant","-r","-w","10","proxy drops packets in prod","merge release via rsync"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-w","10","-D","right-to-left","-j","auto","TLS stable\ntrim queue"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-w","10","-D","right-to-left","-j","auto","VPN fails open\nship patch"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","shadow","-D","auto","-j","right","-F","-w","10","warm standby after restart"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","shadow","-D","auto","-j","right","-F","-w","10","move shards at noon"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-f","big","-D","left-to-right","-w","10","router switches routes at edge","replay journal via nginx"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-f","big","-D","left-to-right","-w","10","TCP retry before cutover","cap retries via git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-f","big","-D","left-to-right","-w","10","NAT down on hot path","warm standby via curl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-f","big","-D","left-to-right","-w","10","queue down after restart","close socket via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-f","big","-D","left-to-right","-w","10","NAT up from backup","move shards via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-w","10","-j","auto","-F","-n","-D","auto","API /\\ curl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-w","10","-j","auto","-F","-n","-D","auto","build \\/ nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-F","-D","right-to-left","-j","right","-w","10","-f","big","tmux Straße router"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-F","-D","right-to-left","-j","right","-w","10","-f","big","make Über BGP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","auto","-f","slant","-w","10","-j","center","relay up\nwarm standby"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-s","-f","big","-w","10","-j","right","-D","left-to-right","HTTP /\\ tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-s","-f","big","-w","10","-j","right","-D","left-to-right","HTTP ()<> git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-s","-f","big","-w","10","-j","right","-D","left-to-right","API ()<> strace"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-s","-f","big","-w","10","-j","right","-D","left-to-right","agent /\\ make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-s","-f","big","-w","10","-j","right","-D","left-to-right","DNS \\/ awk"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-s","-f","big","-w","10","-j","right","-D","left-to-right","worker \\/ docker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-s","-f","big","-w","10","-j","right","-D","left-to-right","TLS |_| tar"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-n","-f","standard","-D","left-to-right","-j","auto","-w","10","docker mañana DNS"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","shadow","-w","10","-j","right","-s","-D","left-to-right","ping 🛰 API"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","left","-D","left-to-right","-w","10","-f","big","pool slow"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","left","-D","left-to-right","-f","standard","-s","index  switches routes  ssh"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","left","-D","left-to-right","-f","standard","-s","cache  switches routes  openssl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-j","left","-D","left-to-right","-f","standard","-s","queue  slow  ssh"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-n","-D","right-to-left","-j","right","-w","10","-F","-f","slant","-s","NAT /\\ bash"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-n","-D","right-to-left","-j","right","-w","10","-F","-f","slant","-s","cache <|>\\ tcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","left","-f","shadow","-D","right-to-left","-w","10","\nAPI\nrejects traffic"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","left","-f","shadow","-D","right-to-left","-w","10","nmap\n\ngateway retry\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","slant","-D","auto","-j","auto","-w","10","-n","awk\n\nTCP stable\n"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","slant","-D","auto","-j","auto","-w","10","-n","UDP stable\nmerge release"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","auto","-f","standard","-r","-w","10","-n","-D","auto","queue  retry  make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","auto","-D","right-to-left","-w","10","-f","slant","-r","proxy fails open during deploy","pin image via git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","auto","-D","right-to-left","-w","10","-f","slant","-r","cache stable after restart","verify lease via tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","auto","-D","right-to-left","-w","10","-f","slant","-r","DNS offline on mesh","verify lease via git"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","auto","-D","right-to-left","-w","10","-f","slant","-r","edge times out on hot path","drop stale jobs via tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","auto","-D","right-to-left","-w","10","-f","slant","-r","IPv6 slow at ingress","rotate cert via iperf"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","auto","-D","right-to-left","-w","10","-f","slant","-r","IPv6 drops packets at noon","pin image via tcpdump"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","auto","-f","big","-s","-j","left","-r","-w","10","netcat résumé edge"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-w","10","-j","auto","-D","right-to-left","-r","API rotates keys before cutover","sync peers via netcat"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-w","10","-f","script","-D","right-to-left","router up at edge","sync peers via nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-w","10","-f","script","-D","right-to-left","runner drain at noon","move shards via curl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-w","10","-f","script","-D","right-to-left","API stable before cutover","roll back via make"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-w","10","-f","script","-D","right-to-left","index slow before cutover","merge release via nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-w","10","-f","script","-D","right-to-left","HTTP slow at noon","merge release via tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-w","10","-f","script","-D","right-to-left","build down under load","warm standby via tar"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-w","10","-f","script","-D","right-to-left","pod times out at noon","restore route via sed"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-w","10","-f","script","-D","right-to-left","API offline from backup","split logs via iperf"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","center","-w","10","-f","script","-D","right-to-left","HTTP down at edge","verify lease via nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","shadow","-D","right-to-left","-j","auto","-r","-w","10","TCP times out\nclose socket"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-r","-j","right","-D","right-to-left","-w","10","replica fails open in prod","replay journal via nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","standard","-r","-j","right","-D","right-to-left","-w","10","API times out under load","fix retry via go"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-F","-f","script","-D","left-to-right","-w","10","-j","left","ssh mañana TCP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","auto","-w","10","-s","-f","shadow","-D","auto","API {[()]} strace"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-w","10","-f","standard","-r","-D","auto","-j","left","gateway restarts cleanly at noon","restore route via sqlite"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","big","-w","10","-j","auto","-D","left-to-right","-n","router switches routes on mesh","sync peers via ping"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-n","-j","center","-f","big","-w","10","-D","auto","API  slow  ssh"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-n","-j","center","-f","big","-w","10","-D","auto","NAT  reset  openssl"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","right","-D","auto","-w","10","-f","script","rg señal UDP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","script","-w","10","-j","auto","-D","left-to-right","VPN up at ingress","restore route via bash"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-f","script","-w","10","-j","auto","-D","left-to-right","API reset on mesh","enable tracing via ping"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-r","-s","-f","big","-j","center","-w","10","-D","right-to-left","-F","iperf señal TCP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-r","-s","-f","big","-j","center","-w","10","-D","right-to-left","-F","openssl mañana worker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-r","-s","-f","big","-j","center","-w","10","-D","right-to-left","-F","tcpdump déploiement TCP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-r","-s","-f","big","-j","center","-w","10","-D","right-to-left","-F","nmap größer DNS"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-r","-s","-f","big","-j","center","-w","10","-D","right-to-left","-F","iperf résumé runner"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-r","-s","-f","big","-j","center","-w","10","-D","right-to-left","-F","rsync mañana DNS"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-r","-s","-f","big","-j","center","-w","10","-D","right-to-left","-F","curl Straße worker"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-r","-s","-f","big","-j","center","-w","10","-D","right-to-left","-F","netcat déploiement TCP"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","right-to-left","-w","10","-n","-j","center","-f","slant","edge  down  jq"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","right-to-left","-w","10","-n","-j","center","-f","slant","VPN  recovers state  rg"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-D","right-to-left","-w","10","-n","-j","center","-f","slant","API  switches routes  nmap"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","left","-f","shadow","-F","-r","-w","10","-D","left-to-right","TCP retry at ingress","add health check via tmux"],"reason":"glyph width at or above wrap boundary"}
+{"split":"hidden","args":["-j","left","-f","shadow","-F","-r","-w","10","-D","left-to-right","cache slow under load","rotate cert via sqlite"],"reason":"glyph width at or above wrap boundary"}
