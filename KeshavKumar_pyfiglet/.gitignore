@@ -1,0 +1,12 @@
+# The original pyfiglet clone is not pushed: it is someone else's repository
+# (with its own .git) and can be re-created from the URL + pinned SHA in README.md.
+pyfiglet/
+
+# Python bytecode (from running tests/gen.py locally)
+__pycache__/
+*.pyc
+
+# OS files
+desktop.ini
+Thumbs.db
+.DS_Store
