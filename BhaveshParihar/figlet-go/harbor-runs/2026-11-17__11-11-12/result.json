@@ -1,0 +1,57 @@
+{
+    "id": "a4b32b0e-192b-4d00-af2a-35efaa0c2277",
+    "started_at": "2026-11-17T11:11:15.973768",
+    "updated_at": "2026-11-17T11:12:15.580566",
+    "finished_at": "2026-11-17T11:12:15.580566",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "oracle__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "behaviour": 0.0,
+                        "build": 1.0,
+                        "no_python": 0.0,
+                        "reward": 0.16666666666666666
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.16666666666666666": [
+                            "figlet-go-cheat-trial-20261117__X4CS9Kc"
+                        ]
+                    },
+                    "build": {
+                        "1": [
+                            "figlet-go-cheat-trial-20261117__X4CS9Kc"
+                        ]
+                    },
+                    "no_python": {
+                        "0": [
+                            "figlet-go-cheat-trial-20261117__X4CS9Kc"
+                        ]
+                    },
+                    "behaviour": {
+                        "0": [
+                            "figlet-go-cheat-trial-20261117__X4CS9Kc"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

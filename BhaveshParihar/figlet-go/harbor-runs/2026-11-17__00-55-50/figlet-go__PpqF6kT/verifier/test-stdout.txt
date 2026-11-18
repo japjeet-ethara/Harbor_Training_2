@@ -1,0 +1,4 @@
+build failed: exit status 127
+bash: line 1: go: command not found
+
+No secret for you. Yet.

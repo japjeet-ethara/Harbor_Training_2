@@ -1,0 +1,123 @@
+{
+    "id": "b7c07baa-add5-43f9-ac54-7c0d9ddc480a",
+    "task_name": "local/figlet-go",
+    "trial_name": "figlet-go__DUnvA4P",
+    "trial_uri": "file:///C:/Users/BhaveshParihar/Desktop/project%202/figlet-go/harbor-runs/2026-11-17__01-10-59/figlet-go__DUnvA4P",
+    "task_id": {
+        "path": "C:\\Users\\BhaveshParihar\\Desktop\\project 2\\figlet-go"
+    },
+    "source": null,
+    "task_checksum": "0eaa8e8dc4b17a0ba047079eed44664bfc62a28b629edb89baafaedd37241f5f",
+    "config": {
+        "task": {
+            "path": "C:\\Users\\BhaveshParihar\\Desktop\\project 2\\figlet-go",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "figlet-go__DUnvA4P",
+        "trials_dir": "C:\\Users\\BhaveshParihar\\Desktop\\project 2\\figlet-go\\harbor-runs\\2026-11-17__01-10-59",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "nop",
+            "import_path": null,
+            "model_name": null,
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "4f7a7429-6daa-4d2e-a7c5-fe4f85a638e8",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "nop",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0,
+            "build": 0,
+            "no_python": 0,
+            "behaviour": 0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-11-16T19:41:00.094150Z",
+    "finished_at": "2026-11-16T19:41:20.967987Z",
+    "environment_setup": {
+        "started_at": "2026-11-16T19:41:00.405811Z",
+        "finished_at": "2026-11-16T19:41:08.930192Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-11-16T19:41:08.930192Z",
+        "finished_at": "2026-11-16T19:41:08.930192Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-11-16T19:41:08.930192Z",
+        "finished_at": "2026-11-16T19:41:08.931222Z"
+    },
+    "verifier": {
+        "started_at": "2026-11-16T19:41:10.958900Z",
+        "finished_at": "2026-11-16T19:41:17.091108Z"
+    },
+    "step_results": null
+}

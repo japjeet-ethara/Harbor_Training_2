@@ -1,0 +1,13 @@
+{
+    "jobs_dir": "C:\\Users\\BhaveshParihar\\Desktop\\project 2\\figlet-go\\harbor-runs",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "C:\\Users\\BhaveshParihar\\Desktop\\project 2\\figlet-go"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "id": "1762b674-efb2-43c0-b500-7c24788e83a3",
+    "task_name": "local/figlet-go",
+    "trial_name": "figlet-go__PpqF6kT",
+    "trial_uri": "file:///C:/Users/BhaveshParihar/Desktop/project%202/figlet-go/harbor-runs/2026-11-17__00-55-50/figlet-go__PpqF6kT",
+    "task_id": {
+        "path": "C:\\Users\\BhaveshParihar\\Desktop\\project 2\\figlet-go"
+    },
+    "source": null,
+    "task_checksum": "112411f9ad053e5ae25a364d388f4dc14145213bc3412b94990509713d60fa6d",
+    "config": {
+        "task": {
+            "path": "C:\\Users\\BhaveshParihar\\Desktop\\project 2\\figlet-go",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "figlet-go__PpqF6kT",
+        "trials_dir": "C:\\Users\\BhaveshParihar\\Desktop\\project 2\\figlet-go\\harbor-runs\\2026-11-17__00-55-50",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "3765f25a-9910-4cc9-8ce7-295ba16c6056",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0,
+            "build": 0,
+            "no_python": 0,
+            "behaviour": 0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-11-16T19:25:51.882861Z",
+    "finished_at": "2026-11-16T19:26:22.917529Z",
+    "environment_setup": {
+        "started_at": "2026-11-16T19:25:52.118693Z",
+        "finished_at": "2026-11-16T19:26:07.260171Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-11-16T19:26:07.260171Z",
+        "finished_at": "2026-11-16T19:26:07.260171Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-11-16T19:26:07.260171Z",
+        "finished_at": "2026-11-16T19:26:09.524323Z"
+    },
+    "verifier": {
+        "started_at": "2026-11-16T19:26:11.743993Z",
+        "finished_at": "2026-11-16T19:26:19.035976Z"
+    },
+    "step_results": null
+}
