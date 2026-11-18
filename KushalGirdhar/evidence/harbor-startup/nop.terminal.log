@@ -1,0 +1,2 @@
++ uvx --from harbor==0.25.0 harbor run -p /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go -a nop -o /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/evidence/harbor --job-name nop
+/mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/validation/harbor-baseline.sh: line 27: uvx: command not found

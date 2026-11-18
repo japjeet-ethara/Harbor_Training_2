@@ -1,0 +1,17 @@
+Image=sha256:e0cfd8915f615cc2cb8c73c0e9fb10066fc4119ab68a9ec5d21a4e6732041bfc User=player Workdir=/workspace/repo Env=["PATH=/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin","GOLANG_VERSION=1.23.12","GOTOOLCHAIN=local","GOPATH=/go","CGO_ENABLED=0"]
+FROM alpine/git:v2.47.2@sha256:062a01ad7a0eb17cff382bc5e26086b4d710e56dfdfdf001109a49b6d9bd378c AS source
+FROM golang:1.23.12-alpine3.22@sha256:383395b794dffa5b53012a212365d40c8e37109a626ca30d6151c8348d380b5f
+player
+uid=1000(player) gid=1000(player) groups=1000(player)
+/workspace/repo
+drwxr-xr-x    6 player   player        4096 Nov 17 08:34 .
+Prepared FLF fonts: 67
+WARNING: opening from cache https://dl-cdn.alpinelinux.org/alpine/v3.22/main: No such file or directory
+WARNING: opening from cache https://dl-cdn.alpinelinux.org/alpine/v3.22/community: No such file or directory
+NO_PYTHON
+/bin/bash
+ERROR: Unable to lock database: Permission denied
+ERROR: Failed to open apk database: Permission denied
+CAN_WRITE
+go version go1.23.12 linux/amd64
+GNU bash, version 5.2.37(1)-release (x86_64-alpine-linux-musl)
