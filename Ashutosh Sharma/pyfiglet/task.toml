@@ -1,0 +1,10 @@
+[agent]
+user = "player"
+timeout = 3600
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900
+
+[verifier]
+timeout = 900
