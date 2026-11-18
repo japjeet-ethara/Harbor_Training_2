@@ -1,0 +1,57 @@
+{
+    "id": "f2f0a2e5-5ae8-4ece-8ac8-f906ebb7f783",
+    "started_at": "2026-11-17T07:29:52.778226",
+    "updated_at": "2026-11-17T07:31:10.747591",
+    "finished_at": "2026-11-17T07:31:10.747591",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "oracle__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "behaviour": 0.9975,
+                        "build": 1.0,
+                        "no_python": 1.0,
+                        "reward": 0.9983333333333334
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.9983333333333334": [
+                            "komal-figlet-go__qRRfwGR"
+                        ]
+                    },
+                    "build": {
+                        "1": [
+                            "komal-figlet-go__qRRfwGR"
+                        ]
+                    },
+                    "no_python": {
+                        "1": [
+                            "komal-figlet-go__qRRfwGR"
+                        ]
+                    },
+                    "behaviour": {
+                        "0.9975": [
+                            "komal-figlet-go__qRRfwGR"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

@@ -1,0 +1,10 @@
+Generator command: uv run --no-project --python 3.12.12 python komal-figlet-go/tests/gen.py [--output regenerate-a | --output regenerate-b]
+visible.jsonl byte-identical across the original and both regenerations
+hidden.jsonl byte-identical across the original and both regenerations
+coverage.json byte-identical across the original and both regenerations
+   2000 komal-figlet-go/tests/data/hidden.jsonl
+   2000 komal-figlet-go/tests/data/visible.jsonl
+   4000 total
+5b0ea5ac9d585f4aaead724725954696403274799b9b002a29c6c3d6ece9b558  komal-figlet-go/tests/data/visible.jsonl
+67e6343e91dd70591f8b9bfe7c23ef9c015a648480600e2472c9a53961c5b672  komal-figlet-go/tests/data/hidden.jsonl
+42f44b4c9b8d91a4cc02c034025ef5cfc7f2b4383d9ff62865eb082253507c6a  komal-figlet-go/tests/data/coverage.json

@@ -1,0 +1,35 @@
++ uvx --from harbor==0.25.0 harbor run -p /tmp/tmp.kiAmIqQZpN/kushal-figlet-go -a oracle -o /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/evidence/harbor --job-name cheat --quiet
+  1/1 Behaviour: 0.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:01:48 0:00:00
+
+adhoc • oracle
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┓
+┃ Trials ┃ Exceptions ┃ Behaviour ┃ Build ┃ No_Python ┃ Reward ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━┩
+│      1 │          0 │     0.000 │ 1.000 │     0.000 │  0.167 │
+└────────┴────────────┴───────────┴───────┴───────────┴────────┘
+
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┓
+┃ Reward              ┃ Count ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━┩
+│ 0.16666666666666666 │     1 │
+│ 1                   │     1 │
+│ 0                   │     1 │
+│ 0                   │     1 │
+└─────────────────────┴───────┘
+
+Job Info
+Total runtime: 1m 48s
+Results written to 
+/mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/evidence/harbor/che
+at/result.json
+Inspect results by running `harbor view 
+/mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/evidence/harbor`
+Share results by running `harbor upload 
+/mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/evidence/harbor/che
+at`
+
+
+cheat reward.json
+{"reward":0.16666666666666666,"build":1,"no_python":0,"behaviour":0}
+build=1 no_python=0 exact=0/2000 timeouts=0 process_errors=0 reward=0.16666667
+No secret for you. Yet.

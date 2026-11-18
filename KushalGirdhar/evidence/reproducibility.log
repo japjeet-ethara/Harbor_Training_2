@@ -1,0 +1,36 @@
++ /home/kushalgirdhar/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/bin/python3.12 /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/tests/gen.py --output /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/first --evidence /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/first
++ /home/kushalgirdhar/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/bin/python3.12 /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/tests/gen.py --output /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/second --evidence /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/second
++ for split in visible hidden
++ cmp /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/first/visible.jsonl /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/second/visible.jsonl
++ cmp /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/first/visible.jsonl /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/tests/data/visible.jsonl
++ wc -l /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/tests/data/visible.jsonl
+2000 /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/tests/data/visible.jsonl
++ cd /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go
++ sha256sum tests/data/visible.jsonl
+9449552aa18e0a79d46da8792b76a90ffbad3597bdd10037946ce1158bf2360b  tests/data/visible.jsonl
++ for split in visible hidden
++ cmp /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/first/hidden.jsonl /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/second/hidden.jsonl
++ cmp /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/first/hidden.jsonl /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/tests/data/hidden.jsonl
++ wc -l /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/tests/data/hidden.jsonl
+2000 /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/tests/data/hidden.jsonl
++ cd /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go
++ sha256sum tests/data/hidden.jsonl
+ec633d73aaa33118497d2ca6195c0dff3f30a0ca45f1bf4296f4044dc76ddd8b  tests/data/hidden.jsonl
++ cmp /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/first/coverage.json /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/second/coverage.json
++ cmp /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/first/coverage.json /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/evidence/coverage.json
++ cmp /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/first/rejected-generation.jsonl /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/second/rejected-generation.jsonl
++ cmp /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/final-data-reruns/first/rejected-generation.jsonl /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/evidence/rejected-generation.jsonl
++ /home/kushalgirdhar/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/bin/python3.12 /mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/files-mentioned-by-the-user-05/work/kushal-figlet-go/validation/audit.py
+visible: 2000 successful nonblank outputs (9449552aa18e0a79d46da8792b76a90ffbad3597bdd10037946ce1158bf2360b)
+hidden: 2000 successful nonblank outputs (ec633d73aaa33118497d2ca6195c0dff3f30a0ca45f1bf4296f4044dc76ddd8b)
+Argument vectors: 4000 distinct, zero visible/hidden overlap
+visible line 71 independent CLI match: ['-D', 'auto', '-r', '-j', 'right', '-f', 'slant', '-w', '120', 'ship patch during deploy']
+hidden line 721 independent CLI match: ['-f', 'mini', '-D', 'auto', '-j', 'center', '-w', '120', 'BGP  recovers state  sqlite']
+hidden line 1555 independent CLI match: ['-D', 'left-to-right', '-w', '120', '-j', 'left', '-f', 'slant', 'git edge']
+visible: 350/350 option-value pairs across 28 pairs of options
+visible: narrow RTL {'20': 111, '10': 112}
+visible: flag counts {'-r': 500, '-s': 500, '-n': 500, '-F': 500}
+hidden: 350/350 option-value pairs across 28 pairs of options
+hidden: narrow RTL {'20': 112, '10': 110}
+hidden: flag counts {'-r': 500, '-s': 500, '-n': 500, '-F': 500}
+Rejected generation attempts: {'glyph width at or above wrap boundary': 458}

@@ -1,0 +1,9 @@
+{
+    "job_name": "cheat-final",
+    "jobs_dir": "komal-figlet-go/evidence/jobs",
+    "tasks": [
+        {
+            "path": "komal-cheat-final-check"
+        }
+    ]
+}

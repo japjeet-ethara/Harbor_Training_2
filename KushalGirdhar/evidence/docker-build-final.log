@@ -1,0 +1,46 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 844B 0.0s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/golang:1.23.12-alpine3.22@sha256:383395b794dffa5b53012a212365d40c8e37109a626ca30d6151c8348d380b5f
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/alpine/git:v2.47.2@sha256:062a01ad7a0eb17cff382bc5e26086b4d710e56dfdfdf001109a49b6d9bd378c
+#3 ...
+
+#4 [auth] alpine/git:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/alpine/git:v2.47.2@sha256:062a01ad7a0eb17cff382bc5e26086b4d710e56dfdfdf001109a49b6d9bd378c
+#3 DONE 2.1s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 2B 0.0s done
+#5 DONE 0.1s
+
+#6 [source 1/2] FROM docker.io/alpine/git:v2.47.2@sha256:062a01ad7a0eb17cff382bc5e26086b4d710e56dfdfdf001109a49b6d9bd378c
+#6 DONE 0.0s
+
+#7 [stage-1 1/4] FROM docker.io/library/golang:1.23.12-alpine3.22@sha256:383395b794dffa5b53012a212365d40c8e37109a626ca30d6151c8348d380b5f
+#7 DONE 0.0s
+
+#8 [stage-1 2/4] RUN apk add --no-cache bash && adduser -D -u 1000 player
+#8 CACHED
+
+#9 [stage-1 3/4] COPY --from=source --chown=player:player /src /workspace/repo
+#9 CACHED
+
+#10 [source 2/2] RUN git init /src     && git -C /src remote add origin https://github.com/pwaller/pyfiglet.git     && git -C /src fetch --depth 1 origin 255827efbc09d662875dad50fa0edc1e1263bf45     && git -C /src checkout --detach FETCH_HEAD     && rm -rf /src/.git /src/pyfiglet/fonts-contrib /src/test-fonts     && mkdir -p /src/pyfiglet/fonts     && cp /src/pyfiglet/fonts-standard/* /src/pyfiglet/fonts/
+#10 CACHED
+
+#11 [stage-1 4/4] WORKDIR /workspace/repo
+#11 CACHED
+
+#12 exporting to image
+#12 exporting layers done
+#12 writing image sha256:e0cfd8915f615cc2cb8c73c0e9fb10066fc4119ab68a9ec5d21a4e6732041bfc 0.0s done
+#12 naming to docker.io/library/kushal-figlet-room
+#12 naming to docker.io/library/kushal-figlet-room 0.0s done
+#12 DONE 0.0s

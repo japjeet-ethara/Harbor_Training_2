@@ -1,0 +1,9 @@
+[
+  {
+    "rule": "shared-verifier",
+    "path": "/mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/kushal-task-2-2/work/komal-figlet-go/task.toml",
+    "message": "Verifier shares the agent sandbox; set verifier.environment_mode = \"separate\", including shared step overrides.",
+    "line": null,
+    "column": null
+  }
+]

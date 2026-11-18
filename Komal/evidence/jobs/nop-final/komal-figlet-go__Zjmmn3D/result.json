@@ -1,0 +1,123 @@
+{
+    "id": "b65f8190-8048-41dc-be11-18d4ee1c8891",
+    "task_name": "komal-figlet-go",
+    "trial_name": "komal-figlet-go__Zjmmn3D",
+    "trial_uri": "file:///mnt/c/Users/KushalGirdhar/Documents/Codex/2026-11-17/kushal-task-2-2/work/komal-figlet-go/evidence/jobs/nop-final/komal-figlet-go__Zjmmn3D",
+    "task_id": {
+        "path": "komal-figlet-go"
+    },
+    "source": null,
+    "task_checksum": "d7e4c490e12a78cacc70cb153ce70d0c552ca7a99c42b23207c7b1a3009bd859",
+    "config": {
+        "task": {
+            "path": "komal-figlet-go",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "komal-figlet-go__Zjmmn3D",
+        "trials_dir": "komal-figlet-go/evidence/jobs/nop-final",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "nop",
+            "import_path": null,
+            "model_name": null,
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "652d912b-8404-4a00-8e5c-11a610152b29",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "nop",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0,
+            "build": 0,
+            "no_python": 0,
+            "behaviour": 0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-11-17T07:38:17.817037Z",
+    "finished_at": "2026-11-17T07:38:40.091996Z",
+    "environment_setup": {
+        "started_at": "2026-11-17T07:38:21.890247Z",
+        "finished_at": "2026-11-17T07:38:26.528844Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-11-17T07:38:26.528908Z",
+        "finished_at": "2026-11-17T07:38:26.528986Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-11-17T07:38:26.529092Z",
+        "finished_at": "2026-11-17T07:38:26.531678Z"
+    },
+    "verifier": {
+        "started_at": "2026-11-17T07:38:27.157005Z",
+        "finished_at": "2026-11-17T07:38:36.155233Z"
+    },
+    "step_results": null
+}

@@ -1,0 +1,57 @@
+{
+    "id": "ce7a4565-5b00-4b4c-9321-c38aae9bce86",
+    "started_at": "2026-11-17T07:29:53.455061",
+    "updated_at": "2026-11-17T07:31:57.704605",
+    "finished_at": "2026-11-17T07:31:57.704605",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "oracle__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "behaviour": 0.0,
+                        "build": 1.0,
+                        "no_python": 0.0,
+                        "reward": 0.16666666666666666
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.16666666666666666": [
+                            "komal-cheat-check__SkpWxiZ"
+                        ]
+                    },
+                    "build": {
+                        "1": [
+                            "komal-cheat-check__SkpWxiZ"
+                        ]
+                    },
+                    "no_python": {
+                        "0": [
+                            "komal-cheat-check__SkpWxiZ"
+                        ]
+                    },
+                    "behaviour": {
+                        "0": [
+                            "komal-cheat-check__SkpWxiZ"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

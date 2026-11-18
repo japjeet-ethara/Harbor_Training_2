@@ -1,0 +1,17 @@
+schema_version = "1.0"
+
+[metadata]
+author_name = "Kushal Girdhar"
+category = "software-engineering"
+tags = ["go", "porting", "figlet"]
+
+[agent]
+user = "player"
+timeout_sec = 3600
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900
+
+[verifier]
+timeout_sec = 900

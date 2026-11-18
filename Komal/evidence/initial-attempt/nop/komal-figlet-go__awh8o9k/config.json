@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "komal-figlet-go"
+    },
+    "trial_name": "komal-figlet-go__awh8o9k",
+    "trials_dir": "komal-figlet-go/evidence/jobs/nop",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "87e644e8-98d0-4310-8b4c-89414f38e327"
+}

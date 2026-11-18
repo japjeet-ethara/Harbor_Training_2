@@ -1,0 +1,9 @@
+Corpus audit: 4000 distinct vectors, zero whitespace-only answers
+Independent CLI visible:18 matched SHA256 dc0c8c973eb14574baa990630d0cc445b90388467aa8e14ccbaf2bb61389e517
+Independent CLI hidden:804 matched SHA256 a6817c9b9812ac340262924f99ef3377c5327aa5ab7dbacdf6ce30950f19b42e
+Independent CLI hidden:1950 matched SHA256 279c28b01cbdbad5d624ccec82b360fe6f8536aabaa76803bd16b2c9d0fde13c
+Independent coverage: 67 standard fonts
+Independent skips: {'glyph at or over width': 20}
+visible: 2000/2000 byte-for-byte matches
+hidden: 2000/2000 byte-for-byte matches
+independently generated: 657/657 byte-for-byte matches
