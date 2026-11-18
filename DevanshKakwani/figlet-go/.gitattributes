@@ -1,0 +1,14 @@
+# Force Linux (LF) line endings on every checkout, including Windows/WSL.
+# Shell scripts with CRLF fail inside the Linux container.
+* text=auto eol=lf
+
+*.sh       text eol=lf
+*.go       text eol=lf
+*.py       text eol=lf
+*.md       text eol=lf
+*.toml     text eol=lf
+*.b64      text eol=lf
+Dockerfile text eol=lf
+
+# Test data must stay byte-exact: LF only, never diffed or merged as text.
+*.jsonl    text eol=lf -diff merge=binary
