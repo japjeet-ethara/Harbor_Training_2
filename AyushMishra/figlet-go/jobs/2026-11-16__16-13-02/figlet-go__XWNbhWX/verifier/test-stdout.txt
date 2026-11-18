@@ -1,0 +1,4 @@
+build: passed
+reward: 1.000000 (build=1 no_python=1 behaviour=1.000000, 2000/2000 cases)
+grader error: read secret: open /tests/secret.b64: no such file or directory
+exit status 1
