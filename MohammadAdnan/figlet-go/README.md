@@ -9,7 +9,7 @@ two-stage Alpine room with no Python. My notes on pyfiglet are in [NOTES.md](NOT
 | Nop | `2026-11-18__12-31-51` | **0.0** | [screenshots/nop.png](screenshots/nop.png) |
 | Cheat (replays visible answers) | `2026-11-18__12-30-01` | **0.167** (behaviour 0/2000, no secret) | [screenshots/cheat.png](screenshots/cheat.png) |
 
-The screenshots are from my first runs (16 Nov). After the data fix described below I ran all three
+The screenshots are from my first runs. After the data fix described below I ran all three
 again on 18 Nov (the jobs above) and got the same rewards.
 
 Page secret (Step 8), drawn by my oracle's Go code: **go touch grass**.
