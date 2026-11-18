@@ -1,0 +1,18 @@
+255827efbc09d662875dad50fa0edc1e1263bf45 2026-08-02T22:51:18+01:00
+rule 1: '|' + '|' => '|'
+rule 2: '_' + '/' => '/'
+rule 4: '/' + '[' => '['
+rule 8: ']' + '[' => '|'
+rule 16: '/' + '\\' => '|'
+rule 16: '\\' + '/' => 'Y'
+rule 16: '>' + '<' => 'X'
+rule 32: '$' + '$' => '$'
+kerning: ASCII space yields to '|'; two occupied cells cannot collide
+Prepared standard fonts: 72
+    __         ____    
+   / /_  ___  / / /___ 
+  / __ \/ _ \/ / / __ \
+ / / / /  __/ / / /_/ /
+/_/ /_/\___/_/_/\____/ 
+                       
+

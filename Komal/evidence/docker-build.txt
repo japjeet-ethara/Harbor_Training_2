@@ -1,0 +1,143 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 793B 0.0s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/alpine/git:v2.47.2@sha256:062a01ad7a0eb17cff382bc5e26086b4d710e56dfdfdf001109a49b6d9bd378c
+#2 ...
+
+#3 [auth] alpine/git:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#4 [auth] library/golang:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#5 [internal] load metadata for docker.io/library/golang:1.23.12-alpine3.22@sha256:383395b794dffa5b53012a212365d40c8e37109a626ca30d6151c8348d380b5f
+#5 ...
+
+#2 [internal] load metadata for docker.io/alpine/git:v2.47.2@sha256:062a01ad7a0eb17cff382bc5e26086b4d710e56dfdfdf001109a49b6d9bd378c
+#2 DONE 2.6s
+
+#5 [internal] load metadata for docker.io/library/golang:1.23.12-alpine3.22@sha256:383395b794dffa5b53012a212365d40c8e37109a626ca30d6151c8348d380b5f
+#5 DONE 2.6s
+
+#6 [internal] load .dockerignore
+#6 transferring context: 2B done
+#6 DONE 0.1s
+
+#7 [stage-1 1/4] FROM docker.io/library/golang:1.23.12-alpine3.22@sha256:383395b794dffa5b53012a212365d40c8e37109a626ca30d6151c8348d380b5f
+#7 resolve docker.io/library/golang:1.23.12-alpine3.22@sha256:383395b794dffa5b53012a212365d40c8e37109a626ca30d6151c8348d380b5f 0.1s done
+#7 sha256:383395b794dffa5b53012a212365d40c8e37109a626ca30d6151c8348d380b5f 10.30kB / 10.30kB done
+#7 sha256:a7ecaac5efda22510d8c903bdc6b19026543f1eac3317d47363680df22161bd8 1.92kB / 1.92kB done
+#7 sha256:72fd06a5dd05d7cb31d0fa2a125e89eecc16fbff26acf95bbd2762cdcfb5af38 2.08kB / 2.08kB done
+#7 sha256:9824c27679d3b27c5e1cb00a73adb6f4f8d556994111c12db3c5d61a0c843df8 0B / 3.80MB 0.8s
+#7 sha256:9824c27679d3b27c5e1cb00a73adb6f4f8d556994111c12db3c5d61a0c843df8 1.05MB / 3.80MB 1.8s
+#7 sha256:8371a51cbc44c1323f96695eaeaeeb1c44b2d30d138a279b348af5c18b2c5e24 0B / 282.45kB 2.2s
+#7 sha256:9824c27679d3b27c5e1cb00a73adb6f4f8d556994111c12db3c5d61a0c843df8 2.10MB / 3.80MB 2.3s
+#7 sha256:9824c27679d3b27c5e1cb00a73adb6f4f8d556994111c12db3c5d61a0c843df8 3.15MB / 3.80MB 2.8s
+#7 sha256:8371a51cbc44c1323f96695eaeaeeb1c44b2d30d138a279b348af5c18b2c5e24 282.45kB / 282.45kB 2.8s done
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 0B / 74.07MB 3.0s
+#7 extracting sha256:9824c27679d3b27c5e1cb00a73adb6f4f8d556994111c12db3c5d61a0c843df8
+#7 sha256:9824c27679d3b27c5e1cb00a73adb6f4f8d556994111c12db3c5d61a0c843df8 3.80MB / 3.80MB 3.1s done
+#7 sha256:d3178a7b27090e22bc2464346d1cdc8f59d0fd7a241452e8148342edf3d0b1e9 0B / 126B 3.2s
+#7 extracting sha256:9824c27679d3b27c5e1cb00a73adb6f4f8d556994111c12db3c5d61a0c843df8 0.2s done
+#7 sha256:d3178a7b27090e22bc2464346d1cdc8f59d0fd7a241452e8148342edf3d0b1e9 126B / 126B 3.5s done
+#7 extracting sha256:8371a51cbc44c1323f96695eaeaeeb1c44b2d30d138a279b348af5c18b2c5e24
+#7 extracting sha256:8371a51cbc44c1323f96695eaeaeeb1c44b2d30d138a279b348af5c18b2c5e24 0.1s done
+#7 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0B / 32B 3.6s
+#7 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 4.0s done
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 4.19MB / 74.07MB 4.9s
+#7 ...
+
+#8 [source 1/2] FROM docker.io/alpine/git:v2.47.2@sha256:062a01ad7a0eb17cff382bc5e26086b4d710e56dfdfdf001109a49b6d9bd378c
+#8 resolve docker.io/alpine/git:v2.47.2@sha256:062a01ad7a0eb17cff382bc5e26086b4d710e56dfdfdf001109a49b6d9bd378c 0.1s done
+#8 sha256:406e3f7b82fca92913cff4c1aa5d2654a093fa93f32314cb9f045a5ce4e41799 10.49MB / 31.22MB 9.6s
+#8 sha256:7b4a69948abb5c0b9fcbba167f2a82bf934e047d9ced666f91585940dd13d96a 93B / 93B 0.6s done
+#8 sha256:062a01ad7a0eb17cff382bc5e26086b4d710e56dfdfdf001109a49b6d9bd378c 5.41kB / 5.41kB done
+#8 sha256:0d9a3a551058dba37ea77757955d3e834442ccf8540783671cc25c0d97957894 861B / 861B done
+#8 sha256:fa88eee7bb0c66a6944e193744e55dd993751988f1db0747277d405c9e1acc95 2.12kB / 2.12kB done
+#8 sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870 3.64MB / 3.64MB 2.1s done
+#8 extracting sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870 0.2s done
+#8 ...
+
+#7 [stage-1 1/4] FROM docker.io/library/golang:1.23.12-alpine3.22@sha256:383395b794dffa5b53012a212365d40c8e37109a626ca30d6151c8348d380b5f
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 7.34MB / 74.07MB 9.9s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 10.49MB / 74.07MB 15.1s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 14.68MB / 74.07MB 17.3s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 18.87MB / 74.07MB 18.8s
+#7 ...
+
+#8 [source 1/2] FROM docker.io/alpine/git:v2.47.2@sha256:062a01ad7a0eb17cff382bc5e26086b4d710e56dfdfdf001109a49b6d9bd378c
+#8 sha256:406e3f7b82fca92913cff4c1aa5d2654a093fa93f32314cb9f045a5ce4e41799 20.97MB / 31.22MB 19.7s
+#8 ...
+
+#7 [stage-1 1/4] FROM docker.io/library/golang:1.23.12-alpine3.22@sha256:383395b794dffa5b53012a212365d40c8e37109a626ca30d6151c8348d380b5f
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 23.07MB / 74.07MB 19.9s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 27.26MB / 74.07MB 20.9s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 31.46MB / 74.07MB 21.8s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 35.65MB / 74.07MB 22.7s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 39.85MB / 74.07MB 23.5s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 44.04MB / 74.07MB 24.5s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 48.23MB / 74.07MB 25.5s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 52.43MB / 74.07MB 26.7s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 56.62MB / 74.07MB 27.6s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 60.82MB / 74.07MB 28.5s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 66.06MB / 74.07MB 29.6s
+#7 ...
+
+#8 [source 1/2] FROM docker.io/alpine/git:v2.47.2@sha256:062a01ad7a0eb17cff382bc5e26086b4d710e56dfdfdf001109a49b6d9bd378c
+#8 sha256:406e3f7b82fca92913cff4c1aa5d2654a093fa93f32314cb9f045a5ce4e41799 31.22MB / 31.22MB 28.0s done
+#8 extracting sha256:406e3f7b82fca92913cff4c1aa5d2654a093fa93f32314cb9f045a5ce4e41799 1.8s
+#8 ...
+
+#7 [stage-1 1/4] FROM docker.io/library/golang:1.23.12-alpine3.22@sha256:383395b794dffa5b53012a212365d40c8e37109a626ca30d6151c8348d380b5f
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 70.25MB / 74.07MB 30.5s
+#7 sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 74.07MB / 74.07MB 31.3s done
+#7 ...
+
+#8 [source 1/2] FROM docker.io/alpine/git:v2.47.2@sha256:062a01ad7a0eb17cff382bc5e26086b4d710e56dfdfdf001109a49b6d9bd378c
+#8 extracting sha256:406e3f7b82fca92913cff4c1aa5d2654a093fa93f32314cb9f045a5ce4e41799 3.0s done
+#8 extracting sha256:7b4a69948abb5c0b9fcbba167f2a82bf934e047d9ced666f91585940dd13d96a done
+#8 DONE 31.5s
+
+#7 [stage-1 1/4] FROM docker.io/library/golang:1.23.12-alpine3.22@sha256:383395b794dffa5b53012a212365d40c8e37109a626ca30d6151c8348d380b5f
+#7 extracting sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 0.1s
+#7 ...
+
+#9 [source 2/2] RUN git clone https://github.com/pwaller/pyfiglet /src     && git -C /src checkout --detach 255827efbc09d662875dad50fa0edc1e1263bf45     && rm -rf /src/.git /src/pyfiglet/fonts-contrib /src/test-fonts     && mkdir /src/pyfiglet/fonts     && cp /src/pyfiglet/fonts-standard/* /src/pyfiglet/fonts/
+#9 0.238 Cloning into '/src'...
+#9 2.386 HEAD is now at 255827e Return False from isValidFont for a missing font (#161)
+#9 DONE 2.6s
+
+#7 [stage-1 1/4] FROM docker.io/library/golang:1.23.12-alpine3.22@sha256:383395b794dffa5b53012a212365d40c8e37109a626ca30d6151c8348d380b5f
+#7 extracting sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 5.3s
+#7 extracting sha256:d5791340ef181f05ef1e99760e4be81cb2008d99b2bc1e56b2faa9b6295d0ac3 9.6s done
+#7 extracting sha256:d3178a7b27090e22bc2464346d1cdc8f59d0fd7a241452e8148342edf3d0b1e9
+#7 extracting sha256:d3178a7b27090e22bc2464346d1cdc8f59d0fd7a241452e8148342edf3d0b1e9 done
+#7 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 done
+#7 DONE 41.8s
+
+#10 [stage-1 2/4] RUN apk add --no-cache bash     && addgroup -g 1000 player     && adduser -D -u 1000 -G player player
+#10 0.195 fetch https://dl-cdn.alpinelinux.org/alpine/v3.22/main/x86_64/APKINDEX.tar.gz
+#10 2.118 fetch https://dl-cdn.alpinelinux.org/alpine/v3.22/community/x86_64/APKINDEX.tar.gz
+#10 4.042 (1/4) Installing ncurses-terminfo-base (6.5_p20250503-r0)
+#10 4.119 (2/4) Installing libncursesw (6.5_p20250503-r0)
+#10 4.220 (3/4) Installing readline (8.2.13-r1)
+#10 4.320 (4/4) Installing bash (5.2.37-r0)
+#10 4.933 Executing bash-5.2.37-r0.post-install
+#10 4.938 Executing busybox-1.37.0-r18.trigger
+#10 4.944 OK: 10 MiB in 21 packages
+#10 DONE 5.8s
+
+#11 [stage-1 3/4] COPY --from=source --chown=player:player /src /workspace/repo
+#11 DONE 0.1s
+
+#12 [stage-1 4/4] WORKDIR /workspace/repo
+#12 DONE 0.1s
+
+#13 exporting to image
+#13 exporting layers 0.1s done
+#13 writing image sha256:327e20e8bcba78c7b45b8f8fbc03b4a1caf90fae92cfad49962f6972c309ce01 done
+#13 naming to docker.io/library/komal-figlet-room done
+#13 DONE 0.1s

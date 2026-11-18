@@ -1,0 +1,155 @@
+{
+  "disjoint_argument_vectors": true,
+  "python": "3.12.12",
+  "seed": 7,
+  "splits": {
+    "hidden": {
+      "direction": {
+        "auto": 671,
+        "left-to-right": 657,
+        "right-to-left": 672
+      },
+      "family": {
+        "glyph-edges": 242,
+        "latin-1": 265,
+        "long-wrap": 246,
+        "punctuation": 262,
+        "repetition": 240,
+        "spacing": 259,
+        "travel-food-nature": 236,
+        "unsupported": 250
+      },
+      "flag_combinations": {
+        "-F": 203,
+        "-F -n": 62,
+        "-F -s": 83,
+        "-F -s -n": 20,
+        "-n": 221,
+        "-r": 208,
+        "-r -F": 82,
+        "-r -F -n": 25,
+        "-r -F -s": 21,
+        "-r -F -s -n": 4,
+        "-r -n": 76,
+        "-r -s": 64,
+        "-r -s -n": 20,
+        "-s": 216,
+        "-s -n": 72,
+        "none": 623
+      },
+      "flags": {
+        "-F": 500,
+        "-n": 500,
+        "-r": 500,
+        "-s": 500
+      },
+      "font": {
+        "banner": 254,
+        "big": 257,
+        "mini": 243,
+        "script": 248,
+        "shadow": 253,
+        "slant": 245,
+        "small": 257,
+        "standard": 243
+      },
+      "justify": {
+        "auto": 502,
+        "center": 498,
+        "left": 494,
+        "right": 506
+      },
+      "narrow_rtl_by_width": {
+        "10": 115,
+        "20": 107
+      },
+      "records": 2000,
+      "rejections": {
+        "glyph_at_or_over_width": 108
+      },
+      "sha256": "67e6343e91dd70591f8b9bfe7c23ef9c015a648480600e2472c9a53961c5b672",
+      "width": {
+        "10": 337,
+        "120": 335,
+        "20": 328,
+        "40": 328,
+        "60": 339,
+        "80": 333
+      }
+    },
+    "visible": {
+      "direction": {
+        "auto": 670,
+        "left-to-right": 663,
+        "right-to-left": 667
+      },
+      "family": {
+        "glyph-edges": 264,
+        "latin-1": 268,
+        "long-wrap": 214,
+        "punctuation": 279,
+        "repetition": 223,
+        "spacing": 266,
+        "travel-food-nature": 245,
+        "unsupported": 241
+      },
+      "flag_combinations": {
+        "-F": 194,
+        "-F -n": 64,
+        "-F -s": 82,
+        "-F -s -n": 24,
+        "-n": 209,
+        "-r": 201,
+        "-r -F": 80,
+        "-r -F -n": 30,
+        "-r -F -s": 20,
+        "-r -F -s -n": 6,
+        "-r -n": 66,
+        "-r -s": 75,
+        "-r -s -n": 22,
+        "-s": 192,
+        "-s -n": 79,
+        "none": 656
+      },
+      "flags": {
+        "-F": 500,
+        "-n": 500,
+        "-r": 500,
+        "-s": 500
+      },
+      "font": {
+        "banner": 240,
+        "big": 247,
+        "mini": 255,
+        "script": 251,
+        "shadow": 250,
+        "slant": 252,
+        "small": 252,
+        "standard": 253
+      },
+      "justify": {
+        "auto": 510,
+        "center": 499,
+        "left": 489,
+        "right": 502
+      },
+      "narrow_rtl_by_width": {
+        "10": 111,
+        "20": 112
+      },
+      "records": 2000,
+      "rejections": {
+        "glyph_at_or_over_width": 103
+      },
+      "sha256": "5b0ea5ac9d585f4aaead724725954696403274799b9b002a29c6c3d6ece9b558",
+      "width": {
+        "10": 327,
+        "120": 338,
+        "20": 332,
+        "40": 339,
+        "60": 336,
+        "80": 328
+      }
+    }
+  }
+}

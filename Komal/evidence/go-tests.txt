@@ -1,0 +1,54 @@
+=== RUN   TestCollisionRules
+=== RUN   TestCollisionRules/equal
+=== RUN   TestCollisionRules/lowline
+=== RUN   TestCollisionRules/hierarchy
+=== RUN   TestCollisionRules/opposing_braces
+=== RUN   TestCollisionRules/big_X
+=== RUN   TestCollisionRules/slash_order_A
+=== RUN   TestCollisionRules/slash_order_B
+=== RUN   TestCollisionRules/hardblanks
+=== RUN   TestCollisionRules/protected_hardblank
+=== RUN   TestCollisionRules/fitting_gap
+=== RUN   TestCollisionRules/fitting_collision
+=== RUN   TestCollisionRules/universal_hardblank
+=== RUN   TestCollisionRules/universal_foreground
+--- PASS: TestCollisionRules (0.00s)
+    --- PASS: TestCollisionRules/equal (0.00s)
+    --- PASS: TestCollisionRules/lowline (0.00s)
+    --- PASS: TestCollisionRules/hierarchy (0.00s)
+    --- PASS: TestCollisionRules/opposing_braces (0.00s)
+    --- PASS: TestCollisionRules/big_X (0.00s)
+    --- PASS: TestCollisionRules/slash_order_A (0.00s)
+    --- PASS: TestCollisionRules/slash_order_B (0.00s)
+    --- PASS: TestCollisionRules/hardblanks (0.00s)
+    --- PASS: TestCollisionRules/protected_hardblank (0.00s)
+    --- PASS: TestCollisionRules/fitting_gap (0.00s)
+    --- PASS: TestCollisionRules/fitting_collision (0.00s)
+    --- PASS: TestCollisionRules/universal_hardblank (0.00s)
+    --- PASS: TestCollisionRules/universal_foreground (0.00s)
+=== RUN   TestFontParserUsesColumnsAndCodePoints
+--- PASS: TestFontParserUsesColumnsAndCodePoints (0.00s)
+=== RUN   TestCLIOptionsAndTransformations
+--- PASS: TestCLIOptionsAndTransformations (0.00s)
+=== RUN   TestFontsOutsideRepository
+--- PASS: TestFontsOutsideRepository (0.00s)
+PASS
+ok  	figlet	0.006s
+=== RUN   TestScoring
+=== RUN   TestScoring/nop
+=== RUN   TestScoring/build_only
+=== RUN   TestScoring/perfect
+=== RUN   TestScoring/partial
+=== RUN   TestScoring/Python_present
+--- PASS: TestScoring (0.00s)
+    --- PASS: TestScoring/nop (0.00s)
+    --- PASS: TestScoring/build_only (0.00s)
+    --- PASS: TestScoring/perfect (0.00s)
+    --- PASS: TestScoring/partial (0.00s)
+    --- PASS: TestScoring/Python_present (0.00s)
+=== RUN   TestJSONLAndPythonScan
+--- PASS: TestJSONLAndPythonScan (0.00s)
+=== RUN   TestRunnerExactOutputAndTimeout
+--- PASS: TestRunnerExactOutputAndTimeout (1.04s)
+PASS
+ok  	command-line-arguments	1.044s

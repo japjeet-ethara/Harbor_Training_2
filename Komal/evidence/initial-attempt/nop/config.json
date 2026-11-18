@@ -1,0 +1,14 @@
+{
+    "job_name": "nop",
+    "jobs_dir": "komal-figlet-go/evidence/jobs",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "komal-figlet-go"
+        }
+    ]
+}
