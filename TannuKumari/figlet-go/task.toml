@@ -1,0 +1,42 @@
+schema_version = "1.4"
+artifacts = []
+
+[task]
+name = "practice/figlet-go"
+version = "1.0.0"
+description = "Port pyfiglet's FIGlet rendering engine to Go, byte for byte, in a room with no Python."
+keywords = ["go", "port", "figlet", "ascii-art", "cli"]
+[[task.authors]]
+name = "practice"
+
+[metadata]
+author_name = "Tannu Kumari"
+author_email = "tannu.kumari.int@ethara.ai"
+upstream_repo = "https://github.com/pwaller/pyfiglet"
+upstream_commit = "255827efbc09d662875dad50fa0edc1e1263bf45"
+upstream_license = "MIT"
+
+[verifier]
+# the grader is a Go program that spawns 2000 subprocesses
+timeout_sec = 900.0
+# run the grader as root so /logs/verifier is always writable
+user = "root"
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 3600.0
+# D4: the agent is a normal user, so it cannot `apk add python3`
+user = "player"
+
+[environment]
+# Harbor refuses "no-network" on a local Docker machine; a cloud runner would lock this down.
+network_mode = "public"
+build_timeout_sec = 900.0
+os = "linux"
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]
