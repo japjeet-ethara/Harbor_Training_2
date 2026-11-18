@@ -1,0 +1,10 @@
+Loaded 2000 hidden cases from /tests/data/hidden.jsonl.
+Building in /workspace/repo: go build -o /tmp/figlet .
+Build failed: exit status 1
+Build stderr:
+go: go.mod file not found in current directory or any parent directory; see 'go help modules'
+Skipping hidden-case execution because the build failed.
+Found at least one .py file under /workspace/repo.
+Scores: build=0 no_python=0 behaviour=0.000000 reward=0.000000
+Wrote reward to /logs/verifier/reward.json
+No secret for you. Yet.

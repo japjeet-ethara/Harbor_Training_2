@@ -1,0 +1,29 @@
+Loaded 2000 hidden cases from /tests/data/hidden.jsonl.
+Building in /workspace/repo: go build -o /tmp/figlet .
+Build succeeded.
+Case at JSONL line 1 stdout mismatch: expected 205 bytes, got 0; first differing byte 0; args=["-f" "standard" "-w" "40" "-j" "auto" "-D" "right-to-left" "-r" "-s" "["]
+Case at JSONL line 2 stdout mismatch: expected 37 bytes, got 0; first differing byte 0; args=["-f" "small" "-w" "80" "-j" "auto" "-D" "left-to-right" "-r" "-n" "[("]
+Case at JSONL line 3 stdout mismatch: expected 49 bytes, got 0; first differing byte 0; args=["-f" "big" "-w" "40" "-j" "auto" "-D" "auto" "-r" ">"]
+Case at JSONL line 4 stdout mismatch: expected 280 bytes, got 0; first differing byte 0; args=["-f" "big" "-w" "60" "-j" "center" "-D" "left-to-right" "-s" "}_"]
+Case at JSONL line 5 stdout mismatch: expected 321 bytes, got 0; first differing byte 0; args=["-f" "mini" "-w" "80" "-j" "auto" "-D" "right-to-left" "]["]
+Case at JSONL line 6 stdout mismatch: expected 148 bytes, got 0; first differing byte 0; args=["-f" "small" "-w" "60" "-j" "left" "-D" "auto" "-n" "foo_bar"]
+Case at JSONL line 7 stdout mismatch: expected 72 bytes, got 0; first differing byte 0; args=["-f" "standard" "-w" "20" "-j" "left" "-D" "right-to-left" "-s" "_("]
+Case at JSONL line 8 stdout mismatch: expected 57 bytes, got 0; first differing byte 0; args=["-f" "script" "-w" "80" "-j" "left" "-D" "left-to-right" "\\_"]
+Case at JSONL line 9 stdout mismatch: expected 241 bytes, got 0; first differing byte 0; args=["-f" "standard" "-w" "40" "-j" "right" "-D" "left-to-right" "hi  go"]
+Case at JSONL line 10 stdout mismatch: expected 271 bytes, got 0; first differing byte 0; args=["-f" "slant" "-w" "80" "-j" "center" "-D" "right-to-left" "-r" "_|"]
+Case at JSONL line 11 stdout mismatch: expected 201 bytes, got 0; first differing byte 0; args=["-f" "shadow" "-w" "40" "-j" "right" "-D" "left-to-right" "-F" "FIGlet"]
+Case at JSONL line 12 stdout mismatch: expected 162 bytes, got 0; first differing byte 0; args=["-f" "script" "-w" "40" "-j" "center" "-D" "auto" "-r" "/("]
+Case at JSONL line 13 stdout mismatch: expected 55 bytes, got 0; first differing byte 0; args=["-f" "standard" "-w" "120" "-j" "left" "-D" "right-to-left" "-F" "]]"]
+Case at JSONL line 14 stdout mismatch: expected 398 bytes, got 0; first differing byte 0; args=["-f" "shadow" "-w" "80" "-j" "auto" "-D" "right-to-left" "-s" "))"]
+Case at JSONL line 15 stdout mismatch: expected 56 bytes, got 0; first differing byte 0; args=["-f" "slant" "-w" "120" "-j" "left" "-D" "right-to-left" "-s" "||"]
+Case at JSONL line 16 stdout mismatch: expected 64 bytes, got 0; first differing byte 0; args=["-f" "banner" "-w" "20" "-j" "auto" "-D" "left-to-right" "-n" "\\"]
+Case at JSONL line 17 stdout mismatch: expected 201 bytes, got 0; first differing byte 0; args=["-f" "shadow" "-w" "40" "-j" "auto" "-D" "right-to-left" "-F" "<<"]
+Case at JSONL line 18 stdout mismatch: expected 551 bytes, got 0; first differing byte 0; args=["-f" "big" "-w" "80" "-j" "right" "-D" "left-to-right" "-s" "straße"]
+Case at JSONL line 19 stdout mismatch: expected 401 bytes, got 0; first differing byte 0; args=["-f" "shadow" "-w" "80" "-j" "right" "-D" "right-to-left" "|/"]
+Case at JSONL line 20 stdout mismatch: expected 176 bytes, got 0; first differing byte 0; args=["-f" "script" "-w" "40" "-j" "center" "-D" "left-to-right" "\\/"]
+Suppressed 1980 additional case diagnostics; limit is 20.
+Behaviour: 0/2000 cases passed (0.000000).
+No .py files found under /workspace/repo.
+Scores: build=1 no_python=0 behaviour=0.000000 reward=0.166667
+Wrote reward to /logs/verifier/reward.json
+No secret for you. Yet.
