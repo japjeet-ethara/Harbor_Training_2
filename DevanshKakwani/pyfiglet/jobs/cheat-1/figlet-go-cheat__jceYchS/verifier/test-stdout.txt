@@ -1,0 +1,9 @@
+build: ok
+FAIL line 1: args=["-n" "-D" "right-to-left" "-j" "auto" "-f" "helv" "xfk"]
+FAIL line 2: args=["-f" "digital" "-r" "-w" "84" "JQCL"]
+FAIL line 3: args=["CEW" "PARhkYz" "u€oqm" "edyzk" "-j" "right" "-r" "-f" "clr6x6" "-w" "110"]
+FAIL line 4: args=["-f" "sbookbi" "-r" "-j" "left" "-w" "18" "5463"]
+FAIL line 5: args=["-F" "-D" "right-to-left" "-f" "smslant" "-j" "right" "-r" "dmpXokA gymkmtn 2 XNS / rmihg"]
+no_python: no hidden case passed
+behaviour: 0/2000 hidden cases passed
+{"reward":0.16666666666666666,"build":1,"no_python":0,"behaviour":0,"passed":0,"total":2000}

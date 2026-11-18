@@ -1,0 +1,13 @@
+[agent]
+user = "player"
+timeout_sec = 3600.0
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900.0
+
+[verifier]
+timeout_sec = 900.0
+# The grader runs in the agent's container: it builds the agent's Go code
+# with the Go toolchain installed there (the image has no Python).
+environment_mode = "shared"

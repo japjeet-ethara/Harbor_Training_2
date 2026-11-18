@@ -1,0 +1,14 @@
+{
+    "job_name": "nop-1",
+    "jobs_dir": "../jobs",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "."
+        }
+    ]
+}

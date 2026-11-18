@@ -1,0 +1,9 @@
+{
+    "job_name": "oracle-2",
+    "jobs_dir": "../jobs",
+    "tasks": [
+        {
+            "path": "."
+        }
+    ]
+}
