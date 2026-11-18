@@ -2,7 +2,7 @@
 
 - **Repo URL:** https://github.com/pwaller/pyfiglet
 - **Commit SHA:** 255827efbc09d662875dad50fa0edc1e1263bf45
-- **Commit date:** 2024-03-24T18:03:00+00:00
+- **Commit date:** 2026-08-02T22:51:18+01:00
 - **Version:** 1.0.2
 - **Licence:** MIT (`LICENSE` file, "MIT License", Copyright (c) Peter Waller <p@pwaller.net> and FIGlet contributors). Allowed.
 

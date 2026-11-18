@@ -6,7 +6,7 @@ The repository at `/workspace/repo` is the Python library pyfiglet. It renders s
 
 Build a Go program in `/workspace/repo` with a `go.mod` and a `main` package at the repository root. Running `go build -o /tmp/figlet .` from `/workspace/repo` must produce a compiled command-line executable at `/tmp/figlet`.
 
-The executable `/tmp/figlet` must accept the following command-line flags followed by the text argument(s). Several text arguments are joined with a single space.
+The executable `/tmp/figlet` must accept the following command-line flags followed by the text argument(s).
 - `-f FONT`: font name to use (defaults to `standard`).
 - `-w COLS`: width used for wrapping and justification (integer, default `80`).
 - `-j auto|left|center|right`: line justification (`auto`, `left`, `center`, `right`).
@@ -15,8 +15,6 @@ The executable `/tmp/figlet` must accept the following command-line flags follow
 - `-F`: flip the rendered output upside down.
 - `-s`: remove empty lines at the start and end of the output.
 - `-n`: make the output have exactly one empty line before and after.
-
-If both `-s` and `-n` are given, `-s` takes effect.
 
 When executed, `/tmp/figlet` must print the exact rendered output to stdout, byte for byte identical to pyfiglet. The fonts draw the printable ASCII characters and the letters Ä Ö Ü ä ö ü ß; any other character (for example é, ï or ñ) is skipped and draws nothing, and text made only of such characters produces the same output as pyfiglet does for it.
 
@@ -37,4 +35,4 @@ The `.flf` font files currently located in `pyfiglet/fonts/` may be relocated or
 
 # How it is graded
 
-Hidden automatic test cases will execute `/tmp/figlet` across diverse fonts, text strings, and flag combinations to assign a partial score.
+Hidden automatic cases will execute `/tmp/figlet` across diverse fonts, text strings, and flag combinations to assign a partial score.
