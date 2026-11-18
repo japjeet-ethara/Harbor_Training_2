@@ -1,0 +1,16 @@
+version = "1.0"
+
+[metadata]
+name = "Task-2"
+description = "Port pyfiglet to a byte-compatible Go command-line program."
+
+[agent]
+user = "player"
+timeout_sec = 3600
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900
+
+[verifier]
+timeout_sec = 900

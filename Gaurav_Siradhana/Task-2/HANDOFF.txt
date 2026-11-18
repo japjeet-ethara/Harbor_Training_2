@@ -1,0 +1,14 @@
+Smushing rule that needed the most care: the asymmetric slash and backslash Big-X
+rule, plus preserving the other smushing hierarchy when overlapping in narrow
+windows.
+
+Docker trap hit: Alpine's Go image is Python-free but does not include Bash, so
+the final stage installs Bash and creates a UID 1000 player user that owns
+/workspace/repo.
+
+Validation evidence:
+- Docker D-rules: player, /workspace/repo, 72 fonts, NO_PYTHON, /bin/bash,
+  and CAN_WRITE
+- Oracle: build 1.0, no_python 1.0, behaviour 1.0, reward 1.0
+- Nop: build 0.0, no_python 0.0, behaviour 0.0, reward 0.0
+- Cheat: build 1.0, no_python 0.0, behaviour 0.0, reward 0.166667
