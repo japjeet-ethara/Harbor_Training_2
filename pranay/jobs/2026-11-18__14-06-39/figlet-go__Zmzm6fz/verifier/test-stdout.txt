@@ -1,0 +1,9 @@
+[build] go build -o /tmp/figlet .  &&  go build ./...
+[build] score 1
+[behaviour] 0 of 2000 hidden cases match -> 0.0000
+  example failing args: ["-r" "-D" "right-to-left" "-w" "80" "-s" "-j" "center" "-f" "small" "figlet x"]
+  example failing args: ["-w" "80" "-f" "script" "slash"]
+  example failing args: ["-F" "-w" "40" "-j" "left" "-D" "right-to-left" "-f" "slant" "shout in giant letters inside a very small window"]
+[no_python] score 0
+[reward] 0.1667  (build 1, no_python 0, behaviour 0.0000)
+No secret for you. Yet.

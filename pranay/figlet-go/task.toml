@@ -1,0 +1,21 @@
+# Harbor task config (Step 2). Key names follow the practice page; if `harbor task init`
+# generated different names for your Harbor version, keep ITS names and set these values.
+version = "1.0"
+
+[metadata]
+author_name = "your-name"
+difficulty = "hard"
+category = "porting"
+tags = ["go", "figlet", "pyfiglet", "docker-multistage"]
+
+[agent]
+user = "player"
+timeout_sec = 3600.0
+
+[environment]
+network_mode = "public"   # Harbor 0.25 refuses "no-network" on local Docker
+build_timeout_sec = 900.0
+
+[verifier]
+timeout_sec = 900.0
+# environment_mode left at its default (shared). `harbor lint` will warn "shared-verifier": expected.
