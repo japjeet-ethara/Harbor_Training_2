@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "C:\Users\AshutoshSharma\AppData\Local\Programs\Python\Python314\Lib\site-packages\harbor\trial\trial.py", line 609, in run
+    await self._run()
+  File "C:\Users\AshutoshSharma\AppData\Local\Programs\Python\Python314\Lib\site-packages\harbor\trial\single_step.py", line 51, in _run
+    await self._run_verifier()
+  File "C:\Users\AshutoshSharma\AppData\Local\Programs\Python\Python314\Lib\site-packages\harbor\trial\single_step.py", line 105, in _run_verifier
+    self.result.verifier_result = await self._run_shared_verifier(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "C:\Users\AshutoshSharma\AppData\Local\Programs\Python\Python314\Lib\site-packages\harbor\trial\trial.py", line 1011, in _run_shared_verifier
+    return await self._verify_with_timeout(verifier, timeout_sec)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AshutoshSharma\AppData\Local\Programs\Python\Python314\Lib\site-packages\harbor\trial\trial.py", line 974, in _verify_with_timeout
+    return await asyncio.wait_for(verifier.verify(), timeout=timeout_sec)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AshutoshSharma\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py", line 486, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\AshutoshSharma\AppData\Local\Programs\Python\Python314\Lib\site-packages\harbor\verifier\verifier.py", line 304, in verify
+    raise RewardFileNotFoundError(
+    ...<3 lines>...
+    )
+harbor.verifier.verifier.RewardFileNotFoundError: No reward file found at jobs\2026-11-17__17-49-03\pyfiglet__mz45CKN\verifier\reward.txt or jobs\2026-11-17__17-49-03\pyfiglet__mz45CKN\verifier\reward.json
