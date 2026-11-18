@@ -1,0 +1,7 @@
+# Keep Linux line endings on every checkout (also on Windows with core.autocrlf=true):
+# CRLF would break solve.sh / test.sh inside the Linux container.
+* text=auto eol=lf
+*.sh text eol=lf
+*.jsonl text eol=lf
+*.b64 text eol=lf
+*.png binary
