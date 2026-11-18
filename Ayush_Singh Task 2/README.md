@@ -194,6 +194,9 @@ Total runtime: 29s
 Results written to jobs\2026-11-18__13-39-50\result.json
 ```
 
+**Terminal Verification Capture:**
+![Cheat Evaluation Terminal Screenshot](screenshots/cheat_terminal.jpg)
+
 **Verifier Output (Cheat Caught):**
 ```text
 === [1/3] Build check ===
