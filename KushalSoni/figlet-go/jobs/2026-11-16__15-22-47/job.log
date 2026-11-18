@@ -1,0 +1,3 @@
+Agent 'nop' does not declare an options_model; leftover kwargs are ignored
+Skipping image OS validation for hb__5ae46a37a1221324a6b3480809f22c90: docker inspect returned 1
+Collecting main service artifacts

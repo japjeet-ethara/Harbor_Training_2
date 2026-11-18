@@ -1,0 +1,8 @@
+reward.json: {"reward":0,"build":0,"no_python":0,"behaviour":0}
+build: ok
+case 0 differs: args=["-f" "shadow" "-s" "-j" "auto" "-D" "right-to-left" "##"]
+case 1 differs: args=["-f" "slant" "-j" "center" "-w" "20" "-D" "auto" "äöü"]
+case 2 differs: args=["-w" "20" "-f" "banner" "-j" "center" "cozy"]
+behaviour: 0/2000
+reward.json: {"reward":0.16666666666666666,"build":1,"no_python":0,"behaviour":0}
+No secret for you. Yet.
