@@ -1,0 +1,34 @@
+schema_version = "1.4"
+artifacts = []
+
+[metadata]
+author_name = "practice"
+difficulty = "hard"
+category = "porting"
+tags = ["go", "port", "pyfiglet", "docker-multistage"]
+
+[verifier]
+timeout_sec = 900.0
+# shared: the grader runs in the same room as the agent, so it can build the
+# agent's code. The grading files (tests/) are copied in only AFTER the agent has
+# finished, so the agent never sees them. `harbor lint` warns "shared-verifier":
+# that is expected here.
+environment_mode = "shared"
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 3600.0
+user = "player"
+
+[environment]
+# Harbor refuses "no-network" on a local Docker machine, so practice uses "public".
+network_mode = "public"
+build_timeout_sec = 900.0
+os = "linux"
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]
