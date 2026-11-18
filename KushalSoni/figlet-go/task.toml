@@ -1,0 +1,35 @@
+schema_version = "1.4"
+artifacts = []
+
+[task]
+name = "practice/figlet-go"
+version = "1.0.0"
+description = "Port pyfiglet's FIGlet renderer (fonts, smushing, wrapping, justify, direction, reverse/flip) to a byte-identical Go CLI."
+authors = []
+keywords = ["go", "port", "figlet", "ascii-art"]
+
+[metadata]
+source_repo = "https://github.com/pwaller/pyfiglet"
+source_commit = "255827efbc09d662875dad50fa0edc1e1263bf45"
+source_license = "MIT"
+
+[verifier]
+timeout_sec = 900.0
+environment_mode = "shared"
+collect = []
+
+[verifier.env]
+
+[agent]
+user = "player"
+timeout_sec = 3600.0
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900.0
+os = "linux"
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]
