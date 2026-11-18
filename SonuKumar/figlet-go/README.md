@@ -109,13 +109,3 @@ cp ./figlet-go/solution/solve.sh.real ./figlet-go/solution/solve.sh
 ```
 
 ---
-
-## ✅ Self-Check Before Hand-In Checklist
-
-- [x] **NOTES.md:** URL, commit SHA (`255827efbc09d662875dad50fa0edc1e1263bf45`), date (`2026-08-02T22:51:18+01:00`), MIT license, font setup step, all 6 smushing rules + kerning.
-- [x] **Image:** Two stages (`source` + agent room), `golang:1.23-alpine` (pinned), `bash` installed, user `player` (uid 1000), `NO_PYTHON` verified (`command -v python3` returns nothing).
-- [x] **instruction.md:** Every sentence testable, no secrets, no internal test names.
-- [x] **gen.py:** Seeded (`random.seed(7)`), answers captured from original pyfiglet, exactly 2000 visible + 2000 hidden test cases.
-- [x] **Grader in Go:** Pure standard library, `build` weight 1, `no_python` weight 1 (tied to build AND correct hidden answer), `behaviour` weight 4.
-- [x] **Verification:** Oracle = 1.0 (with secret banner), Nop = 0.0, Cheat = 0.167 (< 0.2, no secret).
-- [x] **Hand-in:** Real screenshots included in `screenshot/` and two honest lines documented.
