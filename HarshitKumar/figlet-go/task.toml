@@ -1,0 +1,38 @@
+schema_version = "1.4"
+artifacts = ["/workspace/repo"]
+
+[task]
+name = "harsh/figlet-go"
+version = "1.0.0"
+description = "Port pyfiglet to Go with the same giant letters, spacing, and options, with Python removed."
+authors = []
+keywords = ["go", "porting", "figlet", "ascii-art"]
+
+[metadata]
+category = "programming"
+source_repo = "https://github.com/pwaller/pyfiglet"
+source_sha = "255827efbc09d662875dad50fa0edc1e1263bf45"
+licence = "MIT"
+
+[verifier]
+timeout_sec = 900.0
+collect = []
+
+[verifier.env]
+
+[agent]
+user = "player"
+timeout_sec = 3600.0
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]
