@@ -15,6 +15,8 @@ and the agent's room contains no Python.
 | cheat (`cheat/solve.sh`) | 0.000 | 1.000 | 0.000 | **0.167** | < 0.2 | no | `jobs/2026-11-17__00-04-37` |
 
 Earlier runs with the same results: `18-38-39` (oracle), `18-39-57` (nop), `18-40-43` (cheat).
+The `jobs/` folders are Harbor's local run output and are not pushed (`.gitignore`). The job IDs above
+match the paths shown in the screenshots.
 
 The screenshots in [`screenshots/`](screenshots/) are real terminal captures:
 - `oracle-reward.png` and `oracle-secret.png`: the verifier log with the hidden secret drawn by the twin;
@@ -53,7 +55,7 @@ KeshavKumar_pyfiglet/
 │   ├── cheat/                cheat: solve.sh + visible.jsonl (looks answers up, ports nothing)
 │   └── tests/                test.sh, grade.go (Go grader), secret.b64, gen.py, data/{visible,hidden}.jsonl
 ├── screenshots/
-└── jobs/                     Harbor run results
+└── jobs/                     NOT pushed (.gitignore): Harbor's local run results
 ```
 
 ## The room (`environment/Dockerfile`)

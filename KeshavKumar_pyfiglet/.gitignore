@@ -2,6 +2,9 @@
 # (with its own .git) and can be re-created from the URL + pinned SHA in README.md.
 pyfiglet/
 
+# Harbor's local run output (job IDs are listed in README.md; the screenshots are the evidence)
+jobs/
+
 # Python bytecode (from running tests/gen.py locally)
 __pycache__/
 *.pyc
