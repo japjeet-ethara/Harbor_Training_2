@@ -38,6 +38,7 @@ These are the results shown in the included Harbor run screenshots.
 - `figlet-go/environment/` - container setup.
 - `figlet-go/solution/` - reference Go implementation.
 - `figlet-go/cheat/` - visible-case lookup attempt.
+- `figlet-go/NOTES.md` - notes on pyfiglet options and rendering rules.
 - `figlet-go/tests/` - grader, test generator, and test fixtures.
 - `figlet-go/*.png` - Harbor run result screenshots.
 - `jobs/` - Harbor run logs and result files.
