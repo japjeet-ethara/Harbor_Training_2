@@ -1,0 +1,26 @@
+schema_version = "1.4"
+artifacts = []
+
+[metadata]
+description = "Port pyfiglet (pinned commit 255827e) to Go, byte for byte"
+
+[verifier]
+timeout_sec = 900.0
+environment_mode = "shared"
+collect = []
+
+[verifier.env]
+
+[agent]
+user = "player"
+timeout_sec = 3600.0
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900.0
+os = "linux"
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]
