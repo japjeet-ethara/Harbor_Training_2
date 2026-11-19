@@ -1,0 +1,9 @@
+services:
+  main:
+    volumes:
+      - type: bind
+        source: ../tests/data/visible.jsonl
+        target: /run/visible-fixture.jsonl
+        read_only: true
+    environment:
+      VISIBLE_FIXTURE_PATH: /run/visible-fixture.jsonl
